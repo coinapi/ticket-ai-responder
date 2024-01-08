@@ -30,11 +30,9 @@ Users can add team members with specified roles (admin or user).
 Provides the ability to remove users from the account.
 In summary, the customer portal serves as a comprehensive tool for CoinAPI clients to handle financial transactions, monitor API usage, manage subscriptions, and control team access, all within a convenient and organized interface.
 
-Customize the content from the customer to one of the categories below:
-- customerportal.coinapi.io
+Match the customer's question to one of the categories, without justification:
+- Customer portal
 - CryptoTick
 - EMS Trading API
 - Market data API
 - Generally CoinAPI
-
-the result should be only a category without additional content
