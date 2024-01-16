@@ -35,4 +35,3 @@ Match the customer's question to one of the categories, without justification:
 - CryptoTick
 - EMS Trading API
 - Market data API
-- Generally CoinAPI

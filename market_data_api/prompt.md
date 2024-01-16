@@ -6,4 +6,52 @@ The FIX API is a protocol for real-time exchange of financial information, initi
 
 The Flat Files S3 API is a RESTful API that provides access to data stored in flat files. It is designed to be compliant with Amazon S3, allowing the use of existing infrastructure dedicated to Amazon S3. The API supports listing and downloading files, but not all Amazon S3 features. The flat files contain data such as quotes, trades, limit book snapshots, and OHLCV active consolidated data. The API supports HTTP1.0, HTTP1.1, and HTTP2.0 standards. It has two endpoints, one for production with encryption and one for production without encryption. The API uses XML format for responses and requires the "Accept: application/xml" header in HTTP requests. Authentication is required to access the API, and detailed instructions can be found in the authentication section of the documentation. The API supports several Amazon S3 REST API operations, including List objects and Download object. Error messages are returned in XML format and comply with Amazon S3 REST Error Responses. The AWS SDK and S3 Browser are compatible software that can be used to retrieve data from the Flat Files S3 API.
 
-ADD openapi.yaml
+The Market Data REST API provides programmers with a wide range of possibilities for accessing real-time and historical market data for various cryptocurrencies. With this API, developers can easily retrieve metadata about assets, exchanges, and symbols, as well as real-time and historical market data such as exchange rates, order books, quotes, and trades.
+
+Some of the key possibilities that this API offers to programmers include:
+
+Real-time market data: Developers can retrieve real-time market data for various cryptocurrencies, including exchange rates, order books, quotes, and trades. This data can be used to build real-time trading applications, price tracking tools, and other financial applications.
+Historical market data: The API also provides access to historical market data, allowing developers to analyze trends and patterns in the cryptocurrency market. This data can be used to build financial models, backtest trading strategies, and perform other types of analysis.
+Metadata: The API provides metadata about assets, exchanges, and symbols, allowing developers to easily retrieve information about the cryptocurrencies they are interested in. This metadata can be used to build applications that display information about cryptocurrencies, such as price charts, market capitalization, and trading volume.
+Compression support: The API supports data compression, allowing developers to reduce bandwidth usage and improve the performance of their applications.
+Request and concurrency limits: The API implements request and concurrency limits to ensure fair usage and system stability. This means that developers can build applications that make efficient use of the API without worrying about overloading the system.
+Overall, the Market Data REST API provides programmers with a powerful and flexible tool for accessing real-time and historical market data for various cryptocurrencies. With its support for HTTP1.0, HTTP1.1, HTTP2.0, and OpenAPI v3, as well as its adherence to OpenAPI standards for documentation, this API is a reliable and efficient choice for developers building financial applications.
+
+The OpenAPI file describes a REST API for accessing market data related to cryptocurrencies. The API has the following endpoints:
+
+/v1/assets: Returns a list of all assets supported by the API. It accepts an optional query parameter filter_asset_id to filter the results by asset ID.
+/v1/assets/{asset_id}: Returns detailed information about a specific asset. It requires the asset_id path parameter.
+/v1/assets/icons/{size}: Returns a list of icons for all assets, with the specified size. It requires the size path parameter.
+/v1/exchangerate/{asset_id_base}/{asset_id_quote}: Returns the current exchange rate between two assets. It requires the asset_id_base and asset_id_quote path parameters.
+/v1/exchangerate/{asset_id_base}: Returns the current exchange rates between a base asset and all other assets. It requires the asset_id_base path parameter.
+/v1/exchangerate/history/periods: Returns a list of supported time periods for historical exchange rate data.
+/v1/exchangerate/{assetBase}/{assetQuote}/history: Returns historical exchange rate data between two assets for a specified time period. It requires the assetBase and assetQuote path parameters, and accepts several query parameters such as time_start, time_end, period_id, and limit.
+/v1/exchanges: Returns a list of all exchanges supported by the API. It accepts an optional query parameter filter_exchange_id to filter the results by exchange ID.
+/v1/exchanges/{exchange_id}: Returns detailed information about a specific exchange. It requires the exchange_id path parameter.
+/v1/exchanges/icons/{size}: Returns a list of icons for all exchanges, with the specified size. It requires the size path parameter.
+/v1/metadata: Returns metadata about the API, such as the version number.
+/v1/metrics/listing: Returns a list of all supported metrics for the API.
+/v1/metrics/exchange/listing: Returns a list of all supported metrics for a specific exchange. It requires the metric_id and exchange_id query parameters.
+/v1/metrics/exchange/current: Returns the current value of a specific metric for a specific exchange. It requires the metric_id and exchange_id query parameters.
+/v1/metrics/exchange/history: Returns historical data for a specific metric for a specific exchange. It requires the metric_id and exchange_id query parameters, and accepts several query parameters such as time_start, time_end, time_format, period_id, and limit.
+/v1/metrics/symbol/listing: Returns a list of all supported metrics for a specific symbol. It requires the metric_id, exchange_id, and symbol_id query parameters.
+/v1/metrics/symbol/current: Returns the current value of a specific metric for a specific symbol. It requires the metric_id and symbol_id query parameters.
+/v1/metrics/symbol/history: Returns historical data for a specific metric for a specific symbol. It requires the metric_id and symbol_id query parameters, and accepts several query parameters such as time_start, time_end, time_format, period_id, and limit.
+/v1/orderbooks/{symbol_id}/depth/current: Returns the current depth of the order book for a specific symbol. It requires the symbol_id path parameter, and accepts an optional query parameter limit_levels to specify the number of levels to return.
+/v1/orderbooks/{symbol_id}/history: Returns historical order book data for a specific symbol. It requires the symbol_id path parameter, and accepts several query parameters such as time_start, time_end, limit, and limit\_levels.
+/v1/orderbooks3/current: Returns the current order books for all symbols or for a specific symbol. It accepts an optional query parameter filter\_symbol\_id to filter the results by symbol ID.
+/v1/orderbooks3/{symbol_id}/current: Returns the current order book for a specific symbol. It requires the symbol_id path parameter.
+/v1/quotes/{symbol_id}/history: Returns historical quote data for a specific symbol. It requires the symbol_id path parameter, and accepts several query parameters such as time_start, time_end, and limit.
+/v1/quotes/current: Returns the current quotes for all symbols or for a specific symbol. It accepts an optional query parameter filter\_symbol\_id to filter the results by symbol ID.
+/v1/quotes/{symbol_id}/current: Returns the current quote for a specific symbol. It requires the symbol_id path parameter.
+/v1/quotes/latest: Returns the latest quotes for all symbols or for a specific symbol. It accepts an optional query parameter filter\_symbol\_id to filter the results by symbol ID.
+/v1/quotes/{symbol_id}/latest: Returns the latest quote for a specific symbol. It requires the symbol_id path parameter.
+/v1/symbols: Returns a list of all symbols supported by the API. It accepts an optional query parameter filter\_symbol\_id to filter the results by symbol ID.
+/v1/symbols/map/{exchange_id}: Returns a mapping of symbols to their corresponding exchange IDs. It requires the exchange_id path parameter.
+/v1/symbols/{exchange_id}: Returns a list of all symbols for a specific exchange. It requires the exchange_id path parameter.
+/v1/ohlcv/periods: Returns a list of supported time periods for OHLCV data.
+/v1/ohlcv/{symbol_id}/history: Returns historical OHLCV data for a specific symbol. It requires the symbol_id path parameter, and accepts several query parameters such as time_start, time_end, period_id, and limit.
+/v1/ohlcv/{symbol_id}/latest: Returns the latest OHLCV data for a specific symbol. It requires the symbol_id path parameter.
+/v1/trades/{symbol_id}/history: Returns historical trade data for a specific symbol. It requires the symbol_id path parameter, and accepts several query parameters such as time_start, time_end, and limit.
+/v1/trades/{symbol_id}/latest: Returns the latest trade data for a specific symbol. It requires the symbol_id path parameter.
+The API returns data in JSON format, and supports data compression using the Accept-Encoding header. It also implements rate limiting to prevent abuse.
