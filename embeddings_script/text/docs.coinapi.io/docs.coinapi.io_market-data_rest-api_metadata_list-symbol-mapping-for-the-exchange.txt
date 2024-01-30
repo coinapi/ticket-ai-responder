@@ -1,0 +1,21 @@
+
+
+
+
+
+List symbol mapping for the exchange | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIREST APIExchange RatesMetadataList all asset iconsList all assets by asset IDList all assetsList all exchanges by exchange_idList all exchangesList all symbolsList of icons for the exchangesList of symbols for the exchangeList symbol mapping for the exchangeMetricsOhlcvOrder BookOrder Book L3QuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQChangelogMarket Data APIREST APIMetadataList symbol mapping for the exchangeList symbol mapping for the exchangeGET /v1/symbols/map/:exchange_idList symbol mapping for the exchangePath Parametersexchange_id string requiredThe ID of the exchange.Responses200successful operationtext/plainapplication/jsontext/jsonapplication/x-msgpackSchemaExample (from schema)SchemaArray [symbol_id string nullableThe symbol ID.symbol_id_exchange string nullableThe exchange-specific symbol ID.asset_id_base_exchange string nullableThe exchange-specific base asset ID.asset_id_quote_exchange string nullableThe exchange-specific quote asset ID.asset_id_base string nullableThe base asset ID.asset_id_quote string nullableThe quote asset ID.price_precision double nullableThe price precision.size_precision double nullableThe size precision.][  {    "symbol_id": "string",    "symbol_id_exchange": "string",    "asset_id_base_exchange": "string",    "asset_id_quote_exchange": "string",    "asset_id_base": "string",    "asset_id_quote": "string",    "price_precision": 0,    "size_precision": 0  }]SchemaExample (from schema)SchemaArray [symbol_id string nullableThe symbol ID.symbol_id_exchange string nullableThe exchange-specific symbol ID.asset_id_base_exchange string nullableThe exchange-specific base asset ID.asset_id_quote_exchange string nullableThe exchange-specific quote asset ID.asset_id_base string nullableThe base asset ID.asset_id_quote string nullableThe quote asset ID.price_precision double nullableThe price precision.size_precision double nullableThe size precision.][  {    "symbol_id": "string",    "symbol_id_exchange": "string",    "asset_id_base_exchange": "string",    "asset_id_quote_exchange": "string",    "asset_id_base": "string",    "asset_id_quote": "string",    "price_precision": 0,    "size_precision": 0  }]SchemaExample (from schema)SchemaArray [symbol_id string nullableThe symbol ID.symbol_id_exchange string nullableThe exchange-specific symbol ID.asset_id_base_exchange string nullableThe exchange-specific base asset ID.asset_id_quote_exchange string nullableThe exchange-specific quote asset ID.asset_id_base string nullableThe base asset ID.asset_id_quote string nullableThe quote asset ID.price_precision double nullableThe price precision.size_precision double nullableThe size precision.][  {    "symbol_id": "string",    "symbol_id_exchange": "string",    "asset_id_base_exchange": "string",    "asset_id_quote_exchange": "string",    "asset_id_base": "string",    "asset_id_quote": "string",    "price_precision": 0,    "size_precision": 0  }]SchemaExample (from schema)SchemaArray [symbol_id string nullableThe symbol ID.symbol_id_exchange string nullableThe exchange-specific symbol ID.asset_id_base_exchange string nullableThe exchange-specific base asset ID.asset_id_quote_exchange string nullableThe exchange-specific quote asset ID.asset_id_base string nullableThe base asset ID.asset_id_quote string nullableThe quote asset ID.price_precision double nullableThe price precision.size_precision double nullableThe size precision.][  {    "symbol_id": "string",    "symbol_id_exchange": "string",    "asset_id_base_exchange": "string",    "asset_id_quote_exchange": "string",    "asset_id_base": "string",    "asset_id_quote": "string",    "price_precision": 0,    "size_precision": 0  }]Loading...Was this section helpful?12345PreviousList of symbols for the exchangeNextMetricsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/market-data/rest-api/metadata/list-symbol-mapping-for-the-exchange)

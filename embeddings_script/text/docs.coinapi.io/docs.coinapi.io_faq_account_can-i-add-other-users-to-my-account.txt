@@ -1,0 +1,21 @@
+
+
+
+
+
+Can I add other users to my account? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountHow I can update my credit card / billing information?How can I change my CoinAPI account's email address?How can I get an invoice or receipt?How do I make an account?I want to change my account's name?Managing Team MembersCan I add other users to my account?How do I get an additional API key?APIBilling and SubscriptionsGeneralSecurity and PrivacyChangelogFAQCustomer AccountCan I add other users to my account?Can I add other users to my account?Yes, you may add the option to add other users to the account as well as add an admin role. In order to do this:Login to the Customer Portal: https://customerportal.coinapi.io/loginNavigate to 'Team Members': Once you are inside the portal, navigate to the 'Team Members' section Add Email Address: Invite team members to join your account by entering their email addresses. Assign the Designated Role: As the account owner, you hold the reins to assign roles. Choose between 'Admin' and 'User' roles, each with distinct capabilities.Both Admin and User roles can log in to the account, although the Admin role basically has the same capabilities as the owner of the account, such as adding new subscriptions, editing billing information, etc.Was this section helpful?12345PreviousManaging Team MembersNextHow do I get an additional API key?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/account/can-i-add-other-users-to-my-account)

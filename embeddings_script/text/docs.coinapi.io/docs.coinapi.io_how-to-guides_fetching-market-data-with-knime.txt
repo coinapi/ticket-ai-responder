@@ -1,0 +1,25 @@
+
+
+
+
+
+Fetching market data with KNIME | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesAcquire exchange rates with different programming languagesBuilding a Cryptocurrency Portfolio Tracker Using React and CoinAPICreating a historical crypto price chart using CoinAPI and D3.jsFetching market data with KNIMEGet Historical OHLCV Data Using CoinAPIGet symbol funding rate metric data using CoinAPIImport API into PostmanImport data to Google Sheets/ExcelReal-time data visualization with javascriptReal-time trades stream using WebSocket with different languagesRetrieve and analyze crypto order book data using a cryptocurrency APIMarket Data APIEMS APIFAQChangelogHow-to guidesFetching market data with KNIMEOn this pageFetching market data with KNIMEIntroduction​KNIME is an excellent tool for data analytics and integration, offering a user-friendly, node-based interface to design and automate data workflows. Its capabilities encompass data preprocessing, transformation, analysis, machine learning, and visualization, making it versatile for a wide range of data-related tasks. By seamlessly integrating with our REST API, you gain the ability to fetch comprehensive market data, providing you with the power to conduct in-depth research,
+formulate effective trading strategies, manage portfolios, and make informed, data-driven decisions in the dynamic cryptocurrency market.Prerequisites​A CoinAPI key (obtainable by signing up on the CoinAPI website)Installed KNIME Analytics Platform Creating KNIME workflow to get BTC exchange rates​If you have properly installed KNIME on your computer and obtained CoinAPI key, we can start by preparing a workflow. Workflow refers to the visual representation of a data analysis process. 
+It typically consists of nodes (also known as steps or tasks) connected in a specific sequence,
+where each node performs a specific operation on the data.Here's an example of two nodes connected together:Get Request (sends an HTTP GET request to a specified URL, typically an API endpoint like rest.coinapi.io/v1/exchangerate/BTC)Output JSON (receives the JSON data obtained from the API response and presents it in a structured format)Using this example, you can download data and view it within the Output JSON block.Each node result may be easily previewed:Here's an output of Get Request node:Here's an output of Output JSON node:Configuring GET Request in KNIME​To configure a GET Request block, click Configure:In Connection Settings tab, enter the URL of resource you want to retrieve, e.g https://rest.coinapi.io/v1/exchangerate/BTC:In Request Headers tab, enter the X-CoinAPI-Key header with the API key you have obtained via website.Summary​Simple but also more complex workflows can be designed, enabling advanced operations like filtering, grouping, utilizing your own Python scripts, culminating in the option
+to save the processed data in various formats such as CSV, Excel, or others. KNIME together with our Market Data API allows users to analyze market finance data for tasks like machine learning, data analysis, generating charts, optimizing portfolios, managing risks, backtesting trading strategies, and more.Embrace the world of market data analysis!Was this section helpful?12345PreviousCreating a historical crypto price chart using CoinAPI and D3.jsNextGet Historical OHLCV Data Using CoinAPIIntroductionPrerequisitesCreating KNIME workflow to get BTC exchange ratesConfiguring GET Request in KNIMESummaryCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/how-to-guides/fetching-market-data-with-knime)

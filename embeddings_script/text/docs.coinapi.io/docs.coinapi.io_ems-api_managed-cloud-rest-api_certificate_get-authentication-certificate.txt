@@ -1,0 +1,21 @@
+
+
+
+
+
+Get authentication certificate | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateGet authentication certificateEndpointsExchangeLocationFAQChangelogEMS APIEMS - Managed Cloud REST APICertificateGet authentication certificateGet authentication certificateGET /v1/certificate/pemProviding PEM file with the Private Key, Public Key and the Certificate to authenticate to the EMS API.Responses200OKtext/plainSchemaSchemastringLoading...Was this section helpful?12345PreviousCertificateNextEndpointsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/ems-api/managed-cloud-rest-api/certificate/get-authentication-certificate)

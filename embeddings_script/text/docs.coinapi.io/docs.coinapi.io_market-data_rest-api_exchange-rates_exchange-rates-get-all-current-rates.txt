@@ -1,0 +1,21 @@
+
+
+
+
+
+Get all current rates | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIREST APIExchange Rates Get all current rates Timeseries data Timeseries periods Get specific rateMetadataMetricsOhlcvOrder BookOrder Book L3QuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQChangelogMarket Data APIREST APIExchange Rates Get all current rates Get all current ratesGET /v1/exchangerate/:asset_id_baseGet the current exchange rate between requested asset and all other assets.infoIf you are using an exchange rate for mission-critical operations, then for best reliability, you should measure the difference between current time and the time returned from the response to ensure that value of the difference between those meets your internal requirements.infoYou can invert the rates by using Y = 1 / X equation, for example BTC/USD = 1 / (USD/BTC);Path Parametersasset_id_base string requiredRequested exchange rates base asset identifierQuery Parametersfilter_asset_id stringComma or semicolon delimited asset identifiers used to filter response (optional)invert booleanTrue will invert all the rates (optional, if true then rates will be calculated as rate = 1 / actual_rate eg. USD/BTC as BTC/USD)time stringTime for historical rates (optional)Responses200successful operationtext/plainapplication/jsontext/jsonapplication/x-msgpackSchemaExample (from schema)SchemaArray [time date-timeGets or sets the time of the exchange rate.asset_id_quote string nullableGets or sets the quote asset ID of the exchange rate.rate doubleGets or sets the exchange rate value.][  {    "time": "2024-01-30T10:19:20.128Z",    "asset_id_quote": "string",    "rate": 0  }]SchemaExample (from schema)SchemaArray [time date-timeGets or sets the time of the exchange rate.asset_id_quote string nullableGets or sets the quote asset ID of the exchange rate.rate doubleGets or sets the exchange rate value.][  {    "time": "2024-01-30T10:19:20.128Z",    "asset_id_quote": "string",    "rate": 0  }]SchemaExample (from schema)SchemaArray [time date-timeGets or sets the time of the exchange rate.asset_id_quote string nullableGets or sets the quote asset ID of the exchange rate.rate doubleGets or sets the exchange rate value.][  {    "time": "2024-01-30T10:19:20.128Z",    "asset_id_quote": "string",    "rate": 0  }]SchemaExample (from schema)SchemaArray [time date-timeGets or sets the time of the exchange rate.asset_id_quote string nullableGets or sets the quote asset ID of the exchange rate.rate doubleGets or sets the exchange rate value.][  {    "time": "2024-01-30T10:19:20.128Z",    "asset_id_quote": "string",    "rate": 0  }]Loading...Was this section helpful?12345PreviousExchange RatesNext Timeseries dataCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/market-data/rest-api/exchange-rates/exchange-rates-get-all-current-rates)

@@ -1,0 +1,21 @@
+
+
+
+
+
+I hardly use the REST API, why is my usage so high? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralCan I have multiple API keys in one account?How do I enable overage?How to avoid losing the messages or delay on the WebSocket?I forgot my paid subscription API keyI hardly use the REST API, why is my usage so high?We need a OneZero FIX API session, is this possible?What exchanges are supported?Which assets or currencies are listed?Security and PrivacyChangelogFAQGeneralI hardly use the REST API, why is my usage so high?On this pageI hardly use the REST API, why is my usage so high?To provide further clarification regarding REST API request limits, please read this section from our documentation:The request limit define number of maximum requests that could be executed in the 24 hours period (sliding/rolling window - always last 24 hours from specific moment) for your subscription. We define request as data request credits and this is not always equal to the number of API calls executed against the API. A request is deemed to be a single one if the limit query parameter on the endpoint isn’t available, isn’t used or it's stated otherwise in the API documentation. Otherwise — if the limit query parameter is available and is used — then each of the 100 data points returned in the response is counted as one request. For example at the 2019-08-22 13:00 UTC value of the requests remaining (X-RateLimit-Remaining) will be equal to the allocated quota (X-RateLimit-Limit) decreased by the sum of the request costs (SUM(X-RateLimit-Request-Cost)) executed in the period 2019-08-21 13:00 UTC - 2019-08-22 13:00 UTC (last 24 hours).API calls are not equivalent to requests. To give an example, for the date 2023-01-01, you only made 85 API calls, but made a total of 10,012 requests. This is because some API calls pull more data, and every 100 of those data points are considered as 1 request. If you are under the Streamer subscription, you would be exceeding your subscription tier's daily request limit (10k daily requests) and get a 429 error (i.e too many requests -- You have exceeded your API key rate limits).How do I calculate the number of requests I'll be making for a certain query?​The limit query parameter defines the amount of items to return. If you are not using the limit query parameter, the default value will be 100. If you do use it, then every 100 output items will be counted as 1 request. For example, a request using the limit parameter with a value of 1,500 would cost 15 requests (1500/100=15).https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_BTC_USDT/history?limit=1500&period_id=1MIN&time_start=2021-01-28&time_end=2022-01-28The minimum value for the limit parameter is 1 and the maximum is 100,000. In addition, you can check the number of requests used to generate the current HTTP response by checking your response header's x-ratelimit-request-cost. You can also check x-concurrencylimit-remaining to see your remaining requests for the day, and x-ratelimit-reset for the time when all provisioned requests are available to execute again if no more requests will be executed. You can also check your REST API historical daily number of requests metrics by using our Customer Portal available at https://customerportal.coinapi.io/To learn more about REST API Limits, see here: https://docs.coinapi.io/market-data/rest-api#limitsWas this section helpful?12345PreviousI forgot my paid subscription API keyNextWe need a OneZero FIX API session, is this possible?How do I calculate the number of requests I'll be making for a certain query?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/general/I-hardly-use-the-REST-API-why-is-my-usage-so-high)

@@ -1,0 +1,21 @@
+
+
+
+
+
+What are the time periods I can use for Exchange Rates and OHLCV? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIDo you accept bank or wire transfers?Do you offer Trading API?FIX API Logon TroubleshootingGeographic locations and the LatencyHow are exchange rates calculated?How can I get OHLCV data by asset pair?How can I get the USD price for multiple assets at the same time?How can I see a list of symbols related to a specific exchange, market, or asset?How can I unsubscribe from Websocket?How to solve certificate validation error?How to use CoinAPI from Matlab?I received a reconnect message from WebsocketWhat are the restrictions on usage of real-time protocols?What are the time periods I can use for Exchange Rates and OHLCV?What happens if I exceed my plan’s REST API daily request limit?What languages do you support?What timezone is used for date/time values?Where can I find examples and SDK source codes for API?Why are limit headers not always showing on a request?Why are there no Exchange Rates data for some assets for a given period?Why do some symbols have additional prefix?Documenting Connectivity issuesBilling and SubscriptionsGeneralSecurity and PrivacyChangelogFAQAPIWhat are the time periods I can use for Exchange Rates and OHLCV?What are the time periods I can use for Exchange Rates and OHLCV?For Exchange Rates historical timeseries data:Time unitPeriod identifiersSecond1SEC, 2SEC, 3SEC, 4SEC, 5SEC, 6SEC, 10SEC, 15SEC, 20SEC, 30SECMinute1MIN, 2MIN, 3MIN, 4MIN, 5MIN, 6MIN, 10MIN, 15MIN, 20MIN, 30MINHour1HRS, 2HRS, 3HRS, 4HRS, 6HRS, 8HRS, 12HRSDay1DAY, 2DAY, 3DAY, 5DAY, 7DAY, 10DAYYou can also get a full list of supported time periods available for requesting exchange rates historical timeseries data by using this request:https://rest.coinapi.io/v1/exchangerate/history/periodsFor OHLCV timeseries data:Time unitPeriod identifiersSecond1SEC, 2SEC, 3SEC, 4SEC, 5SEC, 6SEC, 10SEC, 15SEC, 20SEC, 30SECMinute1MIN, 2MIN, 3MIN, 4MIN, 5MIN, 6MIN, 10MIN, 15MIN, 20MIN, 30MINHour1HRS, 2HRS, 3HRS, 4HRS, 6HRS, 8HRS, 12HRSDay1DAY, 2DAY, 3DAY, 5DAY, 7DAY, 10DAYMonth1MTH, 2MTH, 3MTH, 4MTH, 6MTHYear1YRS, 2YRS, 3YRS, 4YRS, 5YRSYou can also get a full list of supported time periods available for requesting OHLCV timeseries data by using this request:https://rest.coinapi.io/v1/ohlcv/periodsWas this section helpful?12345PreviousWhat are the restrictions on usage of real-time protocols?NextWhat happens if I exceed my plan’s REST API daily request limit?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/api/What-are-the-time-periods-I-can-use-for-Exchange-Rates-and-OHLCV)

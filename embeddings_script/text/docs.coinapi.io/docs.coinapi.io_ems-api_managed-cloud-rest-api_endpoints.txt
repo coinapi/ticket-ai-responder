@@ -1,0 +1,21 @@
+
+
+
+
+
+Endpoints | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateEndpointsGet API endpointsExchangeLocationFAQChangelogEMS APIEMS - Managed Cloud REST APIEndpointsEndpointsIn the endpoint section we provide information about the EMS API endpoints to the server sites used in the EMS API deployment for your API Key.📄️ Get API endpointsGet all API endpoints that the EMS API expose for your subscription.Was this section helpful?12345PreviousGet authentication certificateNextGet API endpointsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/ems-api/managed-cloud-rest-api/endpoints)

@@ -1,0 +1,21 @@
+
+
+
+
+
+Latest data | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIREST APIExchange RatesMetadataMetricsOhlcvOrder BookGet current order book Current depth of the order book Historical data Latest dataOrder Book L3QuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQChangelogMarket Data APIREST APIOrder Book Latest data Latest dataGET /v1/orderbooks/:symbol_id/latestGet latest order book snapshots for a specific symbol, returned in time descending order.infoThe historical order book data via the REST API is currently limited by a number of updates and to the maximum number of 20 levels.Path Parameterssymbol_id string requiredSymbol identifier of requested timeseriesQuery Parameterslimit int32Default value: 100Amount of items to return (optional, mininum is 1, maximum is 100000, default value is 100, if the parameter is used then every 100 output items are counted as one request)limit_levels int32Maximum amount of levels from each side of the book to include in response (optional)Responses200successful operationtext/plainapplication/jsontext/jsonapplication/x-msgpackSchemaExample (from schema)SchemaArray [symbol_id string nullableThe symbol identifier.time_exchange date-timeThe exchange time of the order book.time_coinapi date-timeThe CoinAPI time when the order book was received.asks  nullableThe asks made by market makers.bids  nullableThe bids made by market makers.][  {    "symbol_id": "string",    "time_exchange": "2024-01-30T10:19:20.154Z",    "time_coinapi": "2024-01-30T10:19:20.154Z"  }]SchemaExample (from schema)SchemaArray [symbol_id string nullableThe symbol identifier.time_exchange date-timeThe exchange time of the order book.time_coinapi date-timeThe CoinAPI time when the order book was received.asks  nullableThe asks made by market makers.bids  nullableThe bids made by market makers.][  {    "symbol_id": "string",    "time_exchange": "2024-01-30T10:19:20.154Z",    "time_coinapi": "2024-01-30T10:19:20.154Z"  }]SchemaExample (from schema)SchemaArray [symbol_id string nullableThe symbol identifier.time_exchange date-timeThe exchange time of the order book.time_coinapi date-timeThe CoinAPI time when the order book was received.asks  nullableThe asks made by market makers.bids  nullableThe bids made by market makers.][  {    "symbol_id": "string",    "time_exchange": "2024-01-30T10:19:20.155Z",    "time_coinapi": "2024-01-30T10:19:20.155Z"  }]SchemaExample (from schema)SchemaArray [symbol_id string nullableThe symbol identifier.time_exchange date-timeThe exchange time of the order book.time_coinapi date-timeThe CoinAPI time when the order book was received.asks  nullableThe asks made by market makers.bids  nullableThe bids made by market makers.][  {    "symbol_id": "string",    "time_exchange": "2024-01-30T10:19:20.155Z",    "time_coinapi": "2024-01-30T10:19:20.155Z"  }]Loading...Was this section helpful?12345Previous Historical dataNextOrder Book L3Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/market-data/rest-api/order-book/order-book-latest-data)

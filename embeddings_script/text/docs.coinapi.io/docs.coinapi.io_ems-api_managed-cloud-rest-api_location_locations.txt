@@ -1,0 +1,21 @@
+
+
+
+
+
+Get site locations | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateEndpointsExchangeLocationGet site locationsFAQChangelogEMS APIEMS - Managed Cloud REST APILocationGet site locationsGet site locationsGET /v1/locationsThis endpoint providing information about the server site locations supported in the EMS API.Responses200OKapplication/jsonSchemaExample (from schema)SchemaArray [location_id stringCoinAPI location identifierregion_name stringIdentifier of the region by the location providerprovider_name stringIdentifier of the location provider][  {    "location_id": "aws-us-east-1",    "region_name": "us-east-1",    "provider_name": "aws"  }]Loading...Was this section helpful?12345PreviousLocationNextFAQCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/ems-api/managed-cloud-rest-api/location/locations)

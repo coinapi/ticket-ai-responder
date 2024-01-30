@@ -1,0 +1,21 @@
+
+
+
+
+
+Security and Privacy | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralSecurity and PrivacyWhat CDN does the API use?What information do I need to provide in order to subscribe?What security mechanisms does CoinAPI use to protect my data?What should I do if my API key was compromised?ChangelogFAQSecurity and PrivacySecurity and PrivacyWas this section helpful?12345PreviousWhich assets or currencies are listed?NextWhat CDN does the API use?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/security-and-privacy)

@@ -1,0 +1,21 @@
+
+
+
+
+
+How can I see a list of symbols related to a specific exchange, market, or asset? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIDo you accept bank or wire transfers?Do you offer Trading API?FIX API Logon TroubleshootingGeographic locations and the LatencyHow are exchange rates calculated?How can I get OHLCV data by asset pair?How can I get the USD price for multiple assets at the same time?How can I see a list of symbols related to a specific exchange, market, or asset?How can I unsubscribe from Websocket?How to solve certificate validation error?How to use CoinAPI from Matlab?I received a reconnect message from WebsocketWhat are the restrictions on usage of real-time protocols?What are the time periods I can use for Exchange Rates and OHLCV?What happens if I exceed my plan’s REST API daily request limit?What languages do you support?What timezone is used for date/time values?Where can I find examples and SDK source codes for API?Why are limit headers not always showing on a request?Why are there no Exchange Rates data for some assets for a given period?Why do some symbols have additional prefix?Documenting Connectivity issuesBilling and SubscriptionsGeneralSecurity and PrivacyChangelogFAQAPIHow can I see a list of symbols related to a specific exchange, market, or asset?How can I see a list of symbols related to a specific exchange, market, or asset?You can filter through different exchanges and symbols on our /v1/symbols endpoint.To get a list of all symbols related to a particular exchange or asset, you can use the filter_exchange_id and filter_asset_id parameter. Here are some examples:To see a list of symbols for Coinbase exchange:https://rest.coinapi.io/v1/symbols?filter_exchange_id=COINBASETo see a list of symbols for Chainlink (LINK):https://rest.coinapi.io/v1/symbols?filter_asset_id=LINKYou can also specify particular exchanges, markets, and assets with the filter_symbol_id parameter.To see a list of symbols for Binance exchange (as an alternative to using filter_exchange_id)https://rest.coinapi.io/v1/symbols?filter_symbol_id=BINANCE_To see a list of symbols for Binance's Spot market:https://rest.coinapi.io/v1/symbols?filter_symbol_id=BINANCE_SPOT_To see a list of symbols for Binance's Spot market with BTC as the asset base:https://rest.coinapi.io/v1/symbols?filter_symbol_id=BINANCE_SPOT_BTC_To see a list of symbols with ETH as the base and BTC as the quote:https://rest.coinapi.io/v1/symbols?filter_symbol_id=_ETH_BTCTo see a list of symbols for Spot markets with XRP as the base and USD as the quote:https://rest.coinapi.io/v1/symbols?filter_symbol_id=_SPOT_XRP_USDYou may refer to this section of our documentation to learn more about the pattern we use for different symbol types: https://docs.coinapi.io/market-data/rest-api/metadata#symbol-identifier To learn more about symbols, please see here: https://docs.coinapi.io/market-data/rest-api/metadata#list-all-symbols-getWas this section helpful?12345PreviousHow can I get the USD price for multiple assets at the same time?NextHow can I unsubscribe from Websocket?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/api/How-can-I-see-a-list-of-symbols-related-to-a-specific-exchange-market-or-asset)

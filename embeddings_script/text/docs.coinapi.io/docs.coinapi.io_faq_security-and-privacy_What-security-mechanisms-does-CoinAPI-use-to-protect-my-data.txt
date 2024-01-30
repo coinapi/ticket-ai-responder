@@ -1,0 +1,21 @@
+
+
+
+
+
+What security mechanisms does CoinAPI use to protect my data? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralSecurity and PrivacyWhat CDN does the API use?What information do I need to provide in order to subscribe?What security mechanisms does CoinAPI use to protect my data?What should I do if my API key was compromised?ChangelogFAQSecurity and PrivacyWhat security mechanisms does CoinAPI use to protect my data?What security mechanisms does CoinAPI use to protect my data?Your sensitive information is stored inside the service provider, which is constantly audited and certified as a PCI-DSS Level 1 Service Provider. This is the most stringent level of certification available in the payments industry. To retain the certification, a payment provider must use world-class security tools and techniques to maintain a high level of security.Was this section helpful?12345PreviousWhat information do I need to provide in order to subscribe?NextWhat should I do if my API key was compromised?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/security-and-privacy/What-security-mechanisms-does-CoinAPI-use-to-protect-my-data)

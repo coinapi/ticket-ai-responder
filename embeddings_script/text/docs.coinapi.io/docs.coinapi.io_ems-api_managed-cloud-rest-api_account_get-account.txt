@@ -1,0 +1,25 @@
+
+
+
+
+
+Get accounts | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountDelete accountDelete all accountsGet accountsAdd or update accountCertificateEndpointsExchangeLocationFAQChangelogEMS APIEMS - Managed Cloud REST APIAccountGet accountsGet accountsGET /v1/accountsGet all accounts maintained for your subscription in the EMS API.Query Parametersfilter_exchange_id anyExchange id of the specific account to provide single account instead of the list of all accountsResponses200OKapplication/jsonSchemaExample (from schema)SchemaArray [exchange_id stringExchange identifier and optional tag identifying specific account configured when the software will be managing multiple accounts on the same exchange; for eg:
+BITSTAMP
+BITSTAMP/7c177641-74bd-4dbe-9b01-2497c12a5f70`
+BITSTAMP/2574
+Allowed separators between the exchange identifier and the tag: ~/.,:;!@#$%^&*-_+=.parameters object[]Exchange specific configuration parametersArray [key stringvalue string]][  {    "exchange_id": "string",    "parameters": [      {        "key": "PublicApiKey",        "value": "36279b02-d24f-40be-a61b-e9fd7de46dd6"      }    ]  }]Loading...Was this section helpful?12345PreviousDelete all accountsNextAdd or update accountCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/ems-api/managed-cloud-rest-api/account/get-account)

@@ -1,0 +1,21 @@
+
+
+
+
+
+How do I enable overage? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralCan I have multiple API keys in one account?How do I enable overage?How to avoid losing the messages or delay on the WebSocket?I forgot my paid subscription API keyI hardly use the REST API, why is my usage so high?We need a OneZero FIX API session, is this possible?What exchanges are supported?Which assets or currencies are listed?Security and PrivacyChangelogFAQGeneralHow do I enable overage?How do I enable overage?If you are finding that you are always requiring more daily requests, one way to circumvent this is by enabling overage, wherein you can go above the limit of requests per day.You may enable overage through the Customer Portal [https://customerportal.coinapi.io/login]. After login in, navigate to Subscriptions> APIKEYS > DETAILS, then enable REST API Request Credits Overage.Was this section helpful?12345PreviousCan I have multiple API keys in one account?NextHow to avoid losing the messages or delay on the WebSocket?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/general/How-do-I-enable-overage)

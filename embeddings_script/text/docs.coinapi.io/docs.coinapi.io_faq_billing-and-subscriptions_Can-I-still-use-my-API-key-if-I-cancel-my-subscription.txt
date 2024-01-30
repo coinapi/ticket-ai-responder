@@ -1,0 +1,21 @@
+
+
+
+
+
+Can I still use my API key if I cancel my subscription? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsCan I cancel my subscription anytime?Can I still use my API key if I cancel my subscription?How to reactivate my canceled subscription?How to subscribe to the API?How to upgrade/downgrade my subscription?GeneralSecurity and PrivacyChangelogFAQBilling and SubscriptionsCan I still use my API key if I cancel my subscription?Can I still use my API key if I cancel my subscription?Cancelling your API key's subscription will render it unusable up until the end of your current billing period. If you still want to be able to use your API key, you may instead opt to downgrade to our Free tier.To learn more about the scope of the Free tier, please refer to our Pricing page: https://www.coinapi.io/PricingWas this section helpful?12345PreviousCan I cancel my subscription anytime?NextHow to reactivate my canceled subscription?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/billing-and-subscriptions/Can-I-still-use-my-API-key-if-I-cancel-my-subscription)

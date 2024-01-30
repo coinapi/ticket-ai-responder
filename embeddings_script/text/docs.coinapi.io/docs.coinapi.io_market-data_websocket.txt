@@ -1,0 +1,24 @@
+
+
+
+
+
+WebSocket API | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIREST APIWebSocket APIEndpointsGeneralMessagesFIX APIS3 APIJSON RPCEMS APIFAQChangelogMarket Data APIWebSocket APIOn this pageWebSocket APIMarket Data - WebSocket APIWebSocket endpoint provides real-time market data streaming which works in Subscribe-Publish communication model.
+After establishing a WebSocket connection with us, you will need to send a Hello message documented below.
+If everything is correct, we will provide you with a continuous stream of real-time market data updates.Implemented Standards:HTTP1.0HTTP1.1HTTP2.0WebSocketcautionYour WebSocket client implementation must comply with the "v13" version of the protocol documented in the RFC6455, including responding with the "Pong" message each time we will send "Ping" (every minute), failure to respond with the "Pong" from your WebSocket client will cause a connection to be closed.infoYou may also want to use our REST API for a listing of available symbols, exchanges or assets that we support if you wish to receive a filtered stream.Authentication​If you want to learn how to authenticate to this API, you can find detailed instructions and guidance in
+authentication section of this documentation.Was this section helpful?12345Previous Latest dataNextEndpointsAuthenticationCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/market-data/websocket)

@@ -1,0 +1,21 @@
+
+
+
+
+
+Positions | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIBalancesOrdersPositionsGet open positionsWebSocket APIFIX APIEMS - Managed Cloud REST APIFAQChangelogEMS APIREST APIPositionsPositions📄️ Get open positionsGet current open positions across all or single exchange.Was this section helpful?12345PreviousSend new orderNextGet open positionsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/ems-api/rest-api/positions)

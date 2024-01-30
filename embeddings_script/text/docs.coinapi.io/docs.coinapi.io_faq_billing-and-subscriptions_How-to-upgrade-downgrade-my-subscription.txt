@@ -1,0 +1,21 @@
+
+
+
+
+
+How to upgrade/downgrade my subscription? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsCan I cancel my subscription anytime?Can I still use my API key if I cancel my subscription?How to reactivate my canceled subscription?How to subscribe to the API?How to upgrade/downgrade my subscription?GeneralSecurity and PrivacyChangelogFAQBilling and SubscriptionsHow to upgrade/downgrade my subscription?How to upgrade/downgrade my subscription?You may upgrade/downgrade your subscription via the Customer Portal (https://customerportal.coinapi.io/login). After logging in, please navigate to Subscriptions > Manage Subscriptions > Update Plan. We can upgrade or downgrade your subscription as well based on the support ticket request.Upgrading and downgrading operations are prorated, the remaining amount on your subscription at the moment of the change will be credited towards future liabilities. Your billing period cycle is not affected by plan change.Example 1:If you have a Streamer subscription with a billing date of 2018-07-15 and it's 2018-07-05 and you want to upgrade your Streamer plan to the Professional, then:    - Unused Streamer subscriptions between 2018-07-05 and 2018-07-15 will be credited    - Professional subscriptions between 2018-07-05 and 2018-07-15 will be debited.Example 2:You have the Professional subscription with billing date 2018-07-15, and it's 2018-07-05, and you want to downgrade to the Streamer plan, then:    - Unused Professional subscriptions between 2018-07-05 and 2018-07-15 will be credited    - Streamer subscriptions between 2018-07-05 and 2018-07-15 will be debited.    - The remaining credit will be applied to future invoicesTo execute the request, kindly submit a request here: https://support.coinapi.io/hc/en-us/requests/newWas this section helpful?12345PreviousHow to subscribe to the API?NextGeneralCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/billing-and-subscriptions/How-to-upgrade-downgrade-my-subscription)

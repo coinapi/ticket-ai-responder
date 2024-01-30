@@ -1,0 +1,21 @@
+
+
+
+
+
+Metadata | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIREST APIExchange RatesMetadataList all asset iconsList all assets by asset IDList all assetsList all exchanges by exchange_idList all exchangesList all symbolsList of icons for the exchangesList of symbols for the exchangeList symbol mapping for the exchangeMetricsOhlcvOrder BookOrder Book L3QuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQChangelogMarket Data APIREST APIMetadataMetadata📄️ List all asset iconsGets the list of icons (of the given size) for all the assets.📄️ List all assets by asset IDList all assets by asset ID📄️ List all assetsRetrieves all assets.📄️ List all exchanges by exchange_idList all exchanges by exchange_id📄️ List all exchangesGet a detailed list of exchanges provided by the system.📄️ List all symbolsRetrieves all symbols with optional filtering.📄️ List of icons for the exchangesList of icons for the exchanges📄️ List of symbols for the exchangeList of symbols for the exchange📄️ List symbol mapping for the exchangeList symbol mapping for the exchangeWas this section helpful?12345Previous Get specific rateNextList all asset iconsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/market-data/rest-api/metadata/#list-all-exchanges-get)

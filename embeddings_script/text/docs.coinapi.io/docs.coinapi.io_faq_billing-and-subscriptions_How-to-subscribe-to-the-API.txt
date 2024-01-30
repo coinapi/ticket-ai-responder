@@ -1,0 +1,21 @@
+
+
+
+
+
+How to subscribe to the API? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsCan I cancel my subscription anytime?Can I still use my API key if I cancel my subscription?How to reactivate my canceled subscription?How to subscribe to the API?How to upgrade/downgrade my subscription?GeneralSecurity and PrivacyChangelogFAQBilling and SubscriptionsHow to subscribe to the API?How to subscribe to the API?Subscriptions for the predefined plans are sold through our Pricing page. [1]Enterprise Plan agreement is custom-tailored to specific project needs. Please contact support or sales to get more information. [2]References:[1] https://www.coinapi.io/Pricing [2] https://support.coinapi.io/hc/en-us/requests/newWas this section helpful?12345PreviousHow to reactivate my canceled subscription?NextHow to upgrade/downgrade my subscription?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/billing-and-subscriptions/How-to-subscribe-to-the-API)

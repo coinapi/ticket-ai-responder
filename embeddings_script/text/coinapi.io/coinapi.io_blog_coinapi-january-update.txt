@@ -1,0 +1,31 @@
+CoinAPI Blog - CoinAPI January update: NaaS, new website, Market Data API on QuickNode marketplace Introducing EMS Trading API  EMS Trading API- Unlimited trading accounts in just one place.Learn moreToggle navigationGet a free API keyProductsProductsMarket Data APIInstant crypto dataEMS Trading APIMulti-exchange accessCryptoTickMarket data in flat filesNode as a ServiceBlockchain infrastructureOn-Chain APIMultichain raw dataHelp CenterRequest contact from SalesKnowledge Base and Support PortalAPI DocsPricingSupportCustomersUse casesCrypto walletsAnalitycsCrypto index providersCrypto taxes and accountingInvestmentPortfolio managementCrypto custodyCrypto miningBrokersCrypto bot tradingResearch in universitiesCase studiesShow allEmpowering traders with real-time data  Read StoryPowering Cryptocurrency Simulation Tools and Contest Read StoryElevating crypto alerting app capabilities with CoinAPI Read StoryAll Case StudiesBlogLog in  NewsCoinAPI January update: NaaS, new website, Market Data API on QuickNode marketplaceCoinAPI January update features some exciting info about our future developments such as NaaS (Network as a Service), our brand-new website, and the launch of Market Data API at the QuickNode marketplace. We believe that these new features will help to make your cryptocurrency journey smoother and more efficient.
+Node-as-a-Service is coming soon!
+Our upcoming product provides strong and flexible infrastructure solutions for blockchain applications. We offer both shared and dedicated nodes that come with node monitoring, smart contract deployment capabilities, and access to archive data. More info soon! In the meantime, check out our blog posts on NaaS:
+
+Comparing self-hosted nodes with managed Node-as-a-Service solutions
+Shared, semi-shared, or dedicated nodes: which one to choose?
+CoinAPI’s Node-as-a-Service: The ultimate guide
+
+CoinAPI’s new website is now live!
+The new coinapi.io features a sleek homepage, detailed product subpages, and an updated blog layout to enhance your experience. We’ve put all of our products (and soon-to-be products), a new pricing page, and much more. Check out the preview. 👇
+
+ 
+ 
+Market Data API at QuickNode marketplace
+QuickNode marketplace has included our Market Data API, which provides real-time data for a variety of financial instruments. This integration offers immediate access to our API, enabling you to monitor market data with ease.
+Cool news! Our CEO, Artur Pietrzyk had an interview with the QuickNode’s team.
+
+ → Full interview is available here
+Technical Tutorials with CoinAPI
+We have quite a few tutorials and guides that can help you become a better trader in the crypto market. You can learn:
+
+How to access exchange rates in different programming languages → Read more
+How to gather historical data on Open, High, Low, Close, and Volume (OHLCV) → Read more
+
+Oh, and just in case…
+If you’re looking for a comprehensive collection of historical cryptocurrency data, our product, CryptoTick has got you covered.
+Stay updated with the latest developments by following us on GitHub, LinkedIn, and X. We’re here to help you excel in the world of crypto trading!
+
+
+Stay up-to-date with the latest CoinApi News.SendI Agree to CoinApi’s Privacy Policy*Recent ArticlesNewsCoinAPI January update: NaaS, new website, Market Data API on QuickNode marketplaceCoinAPI January update features some exciting info about our future developments such as NaaS...Market Data APIHow does CoinAPI maximize the effectiveness of crypto trading bots?Crypto trading bots are essential for trading on the dynamic cryptocurrency market. They need the best data for the best outcomes, though....Market Data APICrypto tax API: Discover the future of crypto tax management with CoinAPIAs tax return deadlines approach in various countries worldwide, traders and investors are struggling with the complexities of reporting...CryptoTickA guide to using Cryptotick for crypto historical dataDid you know that CoinAPI, beyond API products, offers a streamlined solution for those seeking easy access to historical crypto data?...Market Data APIThe future of trading: How cryptocurrency API is changing the gameAs we move from 2023 into 2024, CoinAPI cements its role as a global leader in the cryptocurrency API space. With the launch of our EMS...EMS Trading APICoinAPI update: Cryptocurrency trading API and new integrationsThis month, CoinAPI is proud to launch our cryptocurrency trading API, alongside key partnerships with Quicknode. We’ve also expanded...Market Data APICoinAPI’s cryptocurrency data API guideThis guide is your comprehensive resource for understanding the various CoinAPI’s Cryptocurrency data API offerings available for...EMS Trading APIOptimizing multi-exchange trading with Market data API and EMS Trading APIImagine you’re a crypto trader in a rapidly evolving market. You’re constantly seeking the best opportunities, but find...Market Data APICryptocurrency market data API: A comparative analysisYou might ask, “Why would CoinAPI highlight its competitors in an article about cryptocurrency market data APIs?” It’s a fair...Bring the power of crypto API to your business in minutesStart for FreeGet in Touch×Get a free API keyEMAILNAMETITLECOMPANY SIZE1-1010-5050-250250-10001000+CANCELGET A FREE API KEY ProductsEMS Trading APIMarket Data APICryptoTickNode as a Service (Soon)On-Chain API (Soon)CoinAPI.ioCoinAPI.ioHomeAPI DocsBlogHelpHelpContact salesContact supportKnowledge baseFAQDevelopersDevelopersHelper LibrariesAPI DocumentationStatus PageLegalLegalTerms of serviceAcceptable Usage PolicyPrivacy PolicyJoin our newsletterCopyright 2023 COINAPI LTD or its affiliates. All rights reserved.
+(https://coinapi.io/blog/coinapi-january-update)

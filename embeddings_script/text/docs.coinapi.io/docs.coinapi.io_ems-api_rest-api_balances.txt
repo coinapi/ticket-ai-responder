@@ -1,0 +1,21 @@
+
+
+
+
+
+Balances | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIBalancesGet balancesOrdersPositionsWebSocket APIFIX APIEMS - Managed Cloud REST APIFAQChangelogEMS APIREST APIBalancesBalances📄️ Get balancesGet current currency balance from all or single exchange.Was this section helpful?12345PreviousREST APINextGet balancesCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/ems-api/rest-api/balances)

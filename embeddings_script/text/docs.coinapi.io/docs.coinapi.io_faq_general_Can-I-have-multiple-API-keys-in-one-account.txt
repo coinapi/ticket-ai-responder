@@ -1,0 +1,22 @@
+
+
+
+
+
+Can I have multiple API keys in one account? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralCan I have multiple API keys in one account?How do I enable overage?How to avoid losing the messages or delay on the WebSocket?I forgot my paid subscription API keyI hardly use the REST API, why is my usage so high?We need a OneZero FIX API session, is this possible?What exchanges are supported?Which assets or currencies are listed?Security and PrivacyChangelogFAQGeneralCan I have multiple API keys in one account?Can I have multiple API keys in one account?Yes, it's possible that they have multiple API keys for the same subscription. In the Customer Portal, navigate to Subscriptions > APIKEYS > CREATE APIKEY
+It is important to note that the existence of each additional API Key for a subscription (enabled or disabled) above the plan quota is charged 1 USD per day, with a minimum of one dayThe multiple API keys can be limited via the configuration of the specific API key, for example, the specific API key newly created cannot overage or limit the specific API key to X number of requests to avoid causing issues for other keys. Increased security is one of the main benefits of having numerous API keys. Each key acts as an access point and particular identifier. Users can compartmentalize their access by making unique keys, which lowers the likelihood that a security breach will have a negative effect. The remaining keys are unaffected if one key is hacked, protecting sensitive information and reducing risks.Was this section helpful?12345PreviousGeneralNextHow do I enable overage?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/general/Can-I-have-multiple-API-keys-in-one-account)

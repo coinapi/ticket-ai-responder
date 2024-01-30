@@ -1,0 +1,21 @@
+
+
+
+
+
+What exchanges are supported? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralCan I have multiple API keys in one account?How do I enable overage?How to avoid losing the messages or delay on the WebSocket?I forgot my paid subscription API keyI hardly use the REST API, why is my usage so high?We need a OneZero FIX API session, is this possible?What exchanges are supported?Which assets or currencies are listed?Security and PrivacyChangelogFAQGeneralWhat exchanges are supported?On this pageWhat exchanges are supported?Market Data API​You may query https://rest.coinapi.io/v1/exchanges via our API to get the list of supported exchanges.EMS API​Here is a list of the supported exchanges for the EMS API:BINANCEBINANCEFTSBINANCEFTSCBINANCEFTSCUAT BINANCEFTSUAT BINANCEOPTVBINANCEOPTVUAT BINANCEUATBINANCEUSBITFINEXBITMEXBITMEXUAT BITSTAMPBLOCKCHAINEXCHANGECOINBASEDERIBITDERIBITUATGEMINIHITBTCKRAKENKRAKENFTSLMAXDIGITALLMAXDIGITALUATPOLONIEXIf you want to learn more about the EMS API, please refer to our documentation: https://docs.coinapi.io/ems-apiWas this section helpful?12345PreviousWe need a OneZero FIX API session, is this possible?NextWhich assets or currencies are listed?Market Data APIEMS APICopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/general/What-exchanges-are-supported)

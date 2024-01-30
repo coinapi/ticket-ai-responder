@@ -1,0 +1,21 @@
+
+
+
+
+
+Exchange | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateEndpointsExchangeGet exchange configurationLocationFAQChangelogEMS APIEMS - Managed Cloud REST APIExchangeExchangeIn the exchange section we provide information about the exchanges supported in the EMS API.📄️ Get exchange configurationGet information about the required parameters or server site location of the exchanges supported in the EMS API.Was this section helpful?12345PreviousGet API endpointsNextGet exchange configurationCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/ems-api/managed-cloud-rest-api/exchange)

@@ -1,0 +1,21 @@
+
+
+
+
+
+Get current order book | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIREST APIExchange RatesMetadataMetricsOhlcvOrder BookGet current order book Current depth of the order book Historical data Latest dataOrder Book L3QuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQChangelogMarket Data APIREST APIOrder BookGet current order bookGet current order bookGET /v1/orderbooks/:symbol_id/currentRetrieves the current order book for the specified symbol.Path Parameterssymbol_id string requiredThe symbol ID.Query Parameterslimit_levels int32The maximum number of levels to include in the response.Responses200successful operationtext/plainapplication/jsontext/jsonapplication/x-msgpackSchemaExample (from schema)Schemasymbol_id string nullableThe symbol identifier.time_exchange date-timeThe exchange time of the order book.time_coinapi date-timeThe CoinAPI time when the order book was received.asks  nullableThe asks made by market makers.bids  nullableThe bids made by market makers.{  "symbol_id": "string",  "time_exchange": "2024-01-30T10:19:20.153Z",  "time_coinapi": "2024-01-30T10:19:20.153Z"}SchemaExample (from schema)Schemasymbol_id string nullableThe symbol identifier.time_exchange date-timeThe exchange time of the order book.time_coinapi date-timeThe CoinAPI time when the order book was received.asks  nullableThe asks made by market makers.bids  nullableThe bids made by market makers.{  "symbol_id": "string",  "time_exchange": "2024-01-30T10:19:20.154Z",  "time_coinapi": "2024-01-30T10:19:20.154Z"}SchemaExample (from schema)Schemasymbol_id string nullableThe symbol identifier.time_exchange date-timeThe exchange time of the order book.time_coinapi date-timeThe CoinAPI time when the order book was received.asks  nullableThe asks made by market makers.bids  nullableThe bids made by market makers.{  "symbol_id": "string",  "time_exchange": "2024-01-30T10:19:20.154Z",  "time_coinapi": "2024-01-30T10:19:20.154Z"}SchemaExample (from schema)Schemasymbol_id string nullableThe symbol identifier.time_exchange date-timeThe exchange time of the order book.time_coinapi date-timeThe CoinAPI time when the order book was received.asks  nullableThe asks made by market makers.bids  nullableThe bids made by market makers.{  "symbol_id": "string",  "time_exchange": "2024-01-30T10:19:20.154Z",  "time_coinapi": "2024-01-30T10:19:20.154Z"}Loading...Was this section helpful?12345PreviousOrder BookNext Current depth of the order bookCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/market-data/rest-api/order-book/get-current-order-book)

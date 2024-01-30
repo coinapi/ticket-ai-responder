@@ -1,0 +1,21 @@
+
+
+
+
+
+Managing Team Members | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountHow I can update my credit card / billing information?How can I change my CoinAPI account's email address?How can I get an invoice or receipt?How do I make an account?I want to change my account's name?Managing Team MembersCan I add other users to my account?How do I get an additional API key?APIBilling and SubscriptionsGeneralSecurity and PrivacyChangelogFAQCustomer AccountManaging Team MembersManaging Team MembersEvery CoinAPI account has defined:AdminUserAdmin is defined and can be changed in Customer Portal.Log in to the Customer Portal using your Primary Contact email.Go to the Team Members section.Add the email associated to the team memberMake sure your new Admin team member is correct as this email will able to log into the Customer Portal, and has the same capabilities as the owner of the account.Click Invite User.Log out from the Customer Portal.(optionally) Log in to the Customer portal using email.Users are defined and managed in the Customer Portal:Log in to the Customer Portal using your Primary Contact email.Go to the Team Members sectionAdd the email associated with the team memberMake sure your new User team member is correct. Users will be able to see the usage of the account and track metrics.Click Invite User.Log out from the Customer Portal.(optionally) Log in to the Customer portal using email.Was this section helpful?12345PreviousI want to change my account's name?NextCan I add other users to my account?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/account/Managing-Team-Members)

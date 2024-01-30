@@ -1,0 +1,21 @@
+
+
+
+
+
+Changelog | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQChangelogChangelogOn this pageChangelogThis section will cover the technical changes to the products or documentation. The Changelog section is not just a record of changes; it's a communication tool that bridges the gap between developers and users, ensuring that the latter has a clear understanding of the product's evolution and current state.It's a log of: BREAKING CHANGES, FEATURES, IMPROVEMENTS, BUG FIXES, INTEGRATIONS or other NOTES per public version.January, 2024​BREAKING CHANGES​EMS API: Public release of the product, promotion from the beta phase.IMPROVEMENTS​Market Data API: Increased stability and reduced latency by 50% for the Exchange Rates and OHLCV endpoints.Support: Intoduced AI Bot that has the information about the product and answering questions on the support.Market Data API: Increased the frequency and stability of the data feeds reducing the latencies and variance of latencies.Documentation: Migrating the FAQ section to the documentation.Website: Improved free plan subscription flow.INTEGRATIONS​Market Data API: Added new integration DYDX to the DYDX v3.EMS API: Added new integration DYDX to the DYDX v3.FEATURES​Market Data FIX API: Improved feed L2 feed to make sure each L2 update is trackable to specific L3 updates if the data source distributing data in L3 format.BUG FIXES​EMS API: Resolved issue related to the fact that we reported errors on invalid orders received from the customer side in non descriptive manner.NOTES​We focused mostly on the stability of the platform and improvements that we can execute on multiple fronts.Was this section helpful?12345PreviousWhat should I do if my API key was compromised?January, 2024Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/changelog)

@@ -1,0 +1,21 @@
+
+
+
+
+
+How do I make an account? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountHow I can update my credit card / billing information?How can I change my CoinAPI account's email address?How can I get an invoice or receipt?How do I make an account?I want to change my account's name?Managing Team MembersCan I add other users to my account?How do I get an additional API key?APIBilling and SubscriptionsGeneralSecurity and PrivacyChangelogFAQCustomer AccountHow do I make an account?How do I make an account?Only emails related to active or canceled paid subscriptions can log into the Customer Portal, unless the Product Support Team created the Account. Your new account will be set up automatically with your first login if you are our paid customer.Was this section helpful?12345PreviousHow can I get an invoice or receipt?NextI want to change my account's name?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/account/How-do-I-make-an-account)

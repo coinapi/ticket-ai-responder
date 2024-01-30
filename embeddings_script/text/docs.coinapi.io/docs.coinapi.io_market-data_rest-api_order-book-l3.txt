@@ -1,0 +1,21 @@
+
+
+
+
+
+Order Book L3 | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIREST APIExchange RatesMetadataMetricsOhlcvOrder BookOrder Book L3 Current order book by symbol_id Current order booksQuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQChangelogMarket Data APIREST APIOrder Book L3Order Book L3This section describes calls related to order book data, also known as books or passive level 3 data.📄️  Current order book by symbol_idRetrieves the current order book for the specified symbol.📄️  Current order books Current order booksWas this section helpful?12345Previous Latest dataNext Current order book by symbol_idCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/market-data/rest-api/order-book-l3)

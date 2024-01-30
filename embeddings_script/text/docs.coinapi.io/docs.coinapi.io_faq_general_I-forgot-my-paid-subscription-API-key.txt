@@ -1,0 +1,22 @@
+
+
+
+
+
+I forgot my paid subscription API key | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralCan I have multiple API keys in one account?How do I enable overage?How to avoid losing the messages or delay on the WebSocket?I forgot my paid subscription API keyI hardly use the REST API, why is my usage so high?We need a OneZero FIX API session, is this possible?What exchanges are supported?Which assets or currencies are listed?Security and PrivacyChangelogFAQGeneralI forgot my paid subscription API keyI forgot my paid subscription API keyYou should also be able to see your API key in the Customer Support portal when logged in.1. Log in to the Customer Portal using the email address you used for your subscription.2. Go to the Metrics section.3. You will be able to see your key under Filters > API keys.Reference:
+[1] https://customerportal.coinapi.io/metricsWas this section helpful?12345PreviousHow to avoid losing the messages or delay on the WebSocket?NextI hardly use the REST API, why is my usage so high?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/general/I-forgot-my-paid-subscription-API-key)

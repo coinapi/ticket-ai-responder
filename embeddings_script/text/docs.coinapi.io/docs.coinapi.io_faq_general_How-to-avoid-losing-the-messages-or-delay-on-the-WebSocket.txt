@@ -1,0 +1,21 @@
+
+
+
+
+
+How to avoid losing the messages or delay on the WebSocket? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralCan I have multiple API keys in one account?How do I enable overage?How to avoid losing the messages or delay on the WebSocket?I forgot my paid subscription API keyI hardly use the REST API, why is my usage so high?We need a OneZero FIX API session, is this possible?What exchanges are supported?Which assets or currencies are listed?Security and PrivacyChangelogFAQGeneralHow to avoid losing the messages or delay on the WebSocket?How to avoid losing the messages or delay on the WebSocket?The problem of lost messages in the WebSocket stream can be identified:1. directly on the stream by the gaps in the sequence numberPossible causes are limited and are related to the:1. Bandwidth bottleneck2. Lack of the separation between the receiving thread and parsing, processing operations3. No CPU affinity on the receiving thread4. CPU bottleneck on the receiving thread5. Infrequent collection of the data from the TCP stack6. Heap allocation per message and Garbage Collector pressureIf your client is unable to receive messages fast enough because of the issues listed above then these things will happen:1. Your client TCP stack will be full, and TCP window will be closed to inform us that you can't receive more data and we should not send to you2. Our TCP stack queue will be full because we couldn't send you more data3. We will internally create a limited queue of the messages to deliver when the channel is available again (this could cause the delay on the real-time data before the gaps will appear)4. We will start dropping the messagesMore information is available by googling "TCP Flow Control".Was this section helpful?12345PreviousHow do I enable overage?NextI forgot my paid subscription API keyCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/general/How-to-avoid-losing-the-messages-or-delay-on-the-WebSocket)

@@ -1,0 +1,21 @@
+
+
+
+
+
+Can I cancel my subscription anytime? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsCan I cancel my subscription anytime?Can I still use my API key if I cancel my subscription?How to reactivate my canceled subscription?How to subscribe to the API?How to upgrade/downgrade my subscription?GeneralSecurity and PrivacyChangelogFAQBilling and SubscriptionsCan I cancel my subscription anytime?Can I cancel my subscription anytime?Yes, as stated on our legal terms under Customer Agreement section 2.4:"You may terminate your initial Order of the applicable Software or Cloud Services under this Agreement, for no reason or any reason, by providing notice of termination. At your request (which may be made through your Account or by contacting us), we may disable the license key that allowed the Software to operate or disable access to the Cloud Services. All fees paid are non-refundable."More information can be found here: https://www.coinapi.io/legalWas this section helpful?12345PreviousBilling and SubscriptionsNextCan I still use my API key if I cancel my subscription?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+
+(https://docs.coinapi.io/faq/billing-and-subscriptions/Can-I-cancel-my-subscription-anytime)
