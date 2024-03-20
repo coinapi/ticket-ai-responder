@@ -13,12 +13,11 @@ Get API endpoints | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateEndpointsGet API endpointsExchangeLocationFAQChangelogEMS APIEMS - Managed Cloud REST APIEndpointsGet API endpointsGet API endpointsGET /v1/endpointsGet all API endpoints that the EMS API expose for your subscription.Query Parametersfilter_exchange_id anyExchange idResponses200OKapplication/jsonSchemaExample (from schema)SchemaArray [exchange_id stringExchange identifier and optional tag identifying specific account configured when the software will be managing multiple accounts on the same exchange; for eg:
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateEndpointsGet API endpointsExchangeLocationFAQCustomer PortalChangelogEMS APIEMS - Managed Cloud REST APIEndpointsGet API endpointsGet API endpointsGET /v1/endpointsGet all API endpoints that the EMS API expose for your subscription.Query Parametersfilter_exchange_id anyExchange idResponses200OKapplication/jsonSchemaExample (from schema)SchemaArray [exchange_id stringExchange identifier and optional tag identifying specific account configured when the software will be managing multiple accounts on the same exchange; for eg:
 BITSTAMP
 BITSTAMP/7c177641-74bd-4dbe-9b01-2497c12a5f70`
 BITSTAMP/2574
 Allowed separators between the exchange identifier and the tag: ~/.,:;!@#$%^&*-_+=.location_id stringLocation identifierendpoint_schema stringEndpoint schemaendpoint_host stringEndpoint hostendpoint_url stringEndpoint URL][  {    "exchange_id": "KRAKEN",    "location_id": "aws-us-east-2",    "endpoint_schema": "https",    "endpoint_host": "1314.51253.51.ec2.eu-west-1.amazonaws.com",    "endpoint_url": "https://1314.51253.51.ec2.eu-west-1.amazonaws.com/"  }]Loading...Was this section helpful?12345PreviousEndpointsNextExchangeCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
-
 
 
 

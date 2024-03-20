@@ -13,8 +13,7 @@ Customer Account | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountHow I can update my credit card / billing information?How can I change my CoinAPI account's email address?How can I get an invoice or receipt?How do I make an account?I want to change my account's name?Managing Team MembersCan I add other users to my account?How do I get an additional API key?APIBilling and SubscriptionsGeneralSecurity and PrivacyChangelogFAQCustomer AccountCustomer AccountWas this section helpful?12345PreviousFAQNextHow I can update my credit card / billing information?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
-
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APIFAQGeneralCustomer AccountHow I can update my credit card / billing information?How can I change my CoinAPI account's email address?How can I get an invoice or receipt?How do I make an account?I want to change my account's name?Managing Team MembersCan I add other users to my account?How do I get an additional API key?APIBilling and SubscriptionsSecurity and PrivacyCustomer PortalChangelogFAQCustomer AccountCustomer AccountWas this section helpful?12345PreviousWhy am I receiving "message": "Forbidden - Your API key don't have privileges to data type"?NextHow I can update my credit card / billing information?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
 
 
 

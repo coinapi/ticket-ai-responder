@@ -1,0 +1,20 @@
+
+
+
+
+
+Base url of the API. | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIREST APIExchange RatesIndexesMetadataBase url of the API.List all asset iconsList all assets by asset IDList all assetsList all exchanges by exchange_idList all exchangesList all symbolsList of icons for the exchangesList of symbols for the exchangeList symbol mapping for the exchangeMetricsOhlcvOrder BookOrder Book L3QuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQCustomer PortalChangelogMarket Data APIREST APIMetadataBase url of the API.Base url of the API.GET /v1/metadataBase url of the API.Responses200SuccessLoading...Was this section helpful?12345PreviousMetadataNextList all asset iconsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/market-data/rest-api/metadata/base-url-of-the-api)

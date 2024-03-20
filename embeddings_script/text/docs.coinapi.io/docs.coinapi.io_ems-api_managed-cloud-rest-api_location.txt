@@ -13,8 +13,7 @@ Location | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateEndpointsExchangeLocationGet site locationsFAQChangelogEMS APIEMS - Managed Cloud REST APILocationLocationIn the location section we provide information about the server sites used in the EMS API.📄️ Get site locationsThis endpoint providing information about the server site locations supported in the EMS API.Was this section helpful?12345PreviousGet exchange configurationNextGet site locationsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
-
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateEndpointsExchangeLocationGet site locationsFAQCustomer PortalChangelogEMS APIEMS - Managed Cloud REST APILocationLocationIn the location section we provide information about the server sites used in the EMS API.📄️ Get site locationsThis endpoint providing information about the server site locations supported in the EMS API.Was this section helpful?12345PreviousGet exchange configurationNextGet site locationsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
 
 
 

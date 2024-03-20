@@ -1,0 +1,20 @@
+
+
+
+
+
+How to handle order book flat files can go back in time? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APIFAQGeneralAPI Usage LimitsAre subscription payments executed automatically?Can I get exchange wallet deposit and withdrawal status?Can I get the XML or CSV instead of the JSON output format?Can I have multiple API keys in one account?Can I have multiple subscriptions?Can I participate in the CoinAPI GitHub repository?Can I use the API commercially to show prices on my website?Can I use the API to show graphs, charts or tables?Crossed books / bid >= askDid you have market data in flat files?Did you offer discount for University/non-profit/research-only usage?Do you have a Status Page?Does CoinAPI provide asset icons/images of the cryptocurrencies?Exchange chart is different OHLCVHow can I set custom timezone in the data?How do I enable overage?How does the full orderbook stream work?How granular is your data?How is trade volume calculated?How long does it take to integrate CoinAPI?How to avoid losing the messages or delay on the WebSocket?How to be notified about the issues/incidents?How to check historical API usage?How to get more than 100 items in response?How to handle order book flat files can go back in time?How to handle payment errors during sign upI didn't receive an emailI forgot my paid subscription API keyI hardly use the REST API, why is my usage so high?"Invalid API Key" error for a newly purchased keyIs latency higher for the exchanges which are providing only REST API?Is there an SLA agreement available?OHLCV Aggregation using the REST APIREST API empty array/collection response and 550 error explained.Should we file a ticket every time?Some symbols have extra identifiersWas my free API Key banned/blocked?We need a OneZero FIX API session, is this possible?What are the benefits of using the WebSocket SDK?What are the inclusions of the Enterprise Plan?What data is delivered using the local sites?What exchanges are supported?What is CoinAPI?What market symbol types are supported by CoinAPI?What types of data does CoinAPI provide?Where is CoinAPI infrastructure located?Which assets or currencies are listed?Why am I receiving "message": "Forbidden - Your API key don't have privileges to data type"?Customer AccountAPIBilling and SubscriptionsSecurity and PrivacyCustomer PortalChangelogFAQGeneralHow to handle order book flat files can go back in time?How to handle order book flat files can go back in time?It's expected behavior by design, we sometimes need to go back and failover to stream from another geographical site if we detect the issues with the feed. This mechanism will still exist in the future, however, we have assigned work to remove this backward jump in this or next quarter; it's not our priority at the moment as the impact is too low and it does not affect the quality of the data.You should always process all items in the file in the order in which they are recorded in the file and never change this order.When processing items according to the file order you will have the book which you can use for further processing. The current timestamp of the book is determined by the last processed line in the flat file (timestamps on this last line). In the event when the time going backward you should still normally process the file, but you can restrict supplying the book outside the flat-file processing algorithm until flat-file book time will be greater again than maximum seen timestamp; using this algorithm you will process the backward snapshot and corresponding updates to it transparently.Take a look at the example source code that describes the algorithm above: https://github.com/coinapi/coinapi-sdk/blob/master/csharp-flatfiles-example/Program.csWas this section helpful?12345PreviousHow to get more than 100 items in response?NextHow to handle payment errors during sign upCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/faq/general/How-to-handle-order-book-flat-files-can-go-back-in-time)

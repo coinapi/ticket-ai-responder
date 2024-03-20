@@ -13,8 +13,7 @@ Certificate | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateGet authentication certificateEndpointsExchangeLocationFAQChangelogEMS APIEMS - Managed Cloud REST APICertificateCertificateIn the certificate section we generate TLS certificates that can be used as method of authenticating to the EMS API.📄️ Get authentication certificateProviding PEM file with the Private Key, Public Key and the Certificate to authenticate to the EMS API.Was this section helpful?12345PreviousAdd or update accountNextGet authentication certificateCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
-
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateGet authentication certificateEndpointsExchangeLocationFAQCustomer PortalChangelogEMS APIEMS - Managed Cloud REST APICertificateCertificateIn the certificate section we generate TLS certificates that can be used as method of authenticating to the EMS API.📄️ Get authentication certificateProviding PEM file with the Private Key, Public Key and the Certificate to authenticate to the EMS API.Was this section helpful?12345PreviousAdd or update accountNextGet authentication certificateCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
 
 
 

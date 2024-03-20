@@ -1,0 +1,20 @@
+
+
+
+
+
+List of available indexes | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIREST APIExchange RatesIndexesCreate indexGet index dataList of available indexesRetrieve Historical Composition Value Timeseries Retrieves historical timeseries for the specific composition value for an indexRetrieve Historical Index Value and CompositionRetrieve Historical Index Value TimeseriesUpdate indexMetadataMetricsOhlcvOrder BookOrder Book L3QuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQCustomer PortalChangelogMarket Data APIREST APIIndexesList of available indexesList of available indexesGET /v1/indexesList of available indexesResponses200successful operationtext/plainapplication/jsontext/jsonapplication/x-msgpackSchemaExample (from schema)SchemaArray [index_id string nullableGets or sets the index ID associated with the index.name string nullableGets or sets the name associated with the index.description string nullableGets or sets the descripion of the index.][  {    "index_id": "string",    "name": "string",    "description": "string"  }]SchemaExample (from schema)SchemaArray [index_id string nullableGets or sets the index ID associated with the index.name string nullableGets or sets the name associated with the index.description string nullableGets or sets the descripion of the index.][  {    "index_id": "string",    "name": "string",    "description": "string"  }]SchemaExample (from schema)SchemaArray [index_id string nullableGets or sets the index ID associated with the index.name string nullableGets or sets the name associated with the index.description string nullableGets or sets the descripion of the index.][  {    "index_id": "string",    "name": "string",    "description": "string"  }]SchemaExample (from schema)SchemaArray [index_id string nullableGets or sets the index ID associated with the index.name string nullableGets or sets the name associated with the index.description string nullableGets or sets the descripion of the index.][  {    "index_id": "string",    "name": "string",    "description": "string"  }]Loading...Was this section helpful?12345PreviousGet index dataNextRetrieve Historical Composition Value Timeseries Retrieves historical timeseries for the specific composition value for an indexCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/market-data/rest-api/indexes/list-of-available-indexes)

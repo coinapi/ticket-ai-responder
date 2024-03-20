@@ -13,8 +13,7 @@ FAQ | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APIFAQCustomer AccountAPIBilling and SubscriptionsGeneralSecurity and PrivacyChangelogFAQFAQThis section will cover the questions that are often asked based on the most common inquiries received by us. FAQs cover a range of topics, addressing issues related to products, services, policies, technical support, and more.Was this section helpful?12345PreviousGet site locationsNextCustomer AccountCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
-
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APIFAQGeneralCustomer AccountAPIBilling and SubscriptionsSecurity and PrivacyCustomer PortalChangelogFAQFAQThis section will cover the questions that are often asked based on the most common inquiries received by us. FAQs cover a range of topics, addressing issues related to products, services, policies, technical support, and more.Was this section helpful?12345PreviousGet site locationsNextGeneralCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
 
 
 

@@ -1,2 +1,1 @@
-Customer portal CoinAPI.ioYou need to enable JavaScript to run this app.
-(https://docs.coinapi.io/management/subscriptions)
+Customer portal CoinAPI.ioYou need to enable JavaScript to run this app.(https://docs.coinapi.io/management/subscriptions)

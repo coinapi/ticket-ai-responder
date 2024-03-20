@@ -13,12 +13,11 @@ Add or update account | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountDelete accountDelete all accountsGet accountsAdd or update accountCertificateEndpointsExchangeLocationFAQChangelogEMS APIEMS - Managed Cloud REST APIAccountAdd or update accountAdd or update accountPOST /v1/accountsAdd new or update existing exchange account for your subscription in the EMS API.application/jsonRequest Body requiredExchange account object that needs to be add/update to the EMSexchange_id stringExchange identifier and optional tag identifying specific account configured when the software will be managing multiple accounts on the same exchange; for eg:
+Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountDelete accountDelete all accountsGet accountsAdd or update accountCertificateEndpointsExchangeLocationFAQCustomer PortalChangelogEMS APIEMS - Managed Cloud REST APIAccountAdd or update accountAdd or update accountPOST /v1/accountsAdd new or update existing exchange account for your subscription in the EMS API.application/jsonRequest Body requiredExchange account object that needs to be add/update to the EMSexchange_id stringExchange identifier and optional tag identifying specific account configured when the software will be managing multiple accounts on the same exchange; for eg:
 BITSTAMP
 BITSTAMP/7c177641-74bd-4dbe-9b01-2497c12a5f70`
 BITSTAMP/2574
 Allowed separators between the exchange identifier and the tag: ~/.,:;!@#$%^&*-_+=.parameters object[]Parameters required to log into the exchangeArray [key stringvalue string]Responses400405Invalid exchange idValidation exceptionLoading...Was this section helpful?12345PreviousGet accountsNextCertificateCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
-
 
 
 
