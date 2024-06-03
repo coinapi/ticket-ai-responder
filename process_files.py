@@ -53,14 +53,14 @@ def create_context(
     return "\n\n###\n\n".join(returns)
 
 # Function to get embeddings for a given text
-def get_embeddings(text, api_key, model_name):
+def get_embeddings(text, prompt, api_key, model_name):
 
     df = load_local_embeddings()
     context = create_context(text, df, api_key)
 
     response = openai.completions.create(
         # prompt=f"Answer the question based on the context below, and if the question can't be answered based on the context, say \"I don't know\"\n\nContext: {context}\n\n---\n\nQuestion: {question}\nAnswer:",
-        prompt=f"Context: {context}\n\n---\n\nQuestion: {text}\nAnswer:",
+        prompt=f"{prompt}\n\nContext: {context}\n\n---\n\nQuestion: {text}\nAnswer:",
         temperature=0,
         max_tokens=150,
         top_p=1,
@@ -79,16 +79,18 @@ def get_embeddings(text, api_key, model_name):
     # return response
 
 # Function to process input files and write responses to an output file
-def process_files(input_files, output_file, api_key, model_name):
-    responses = {}
-    for file_path in input_files:
-        with open(file_path, 'r') as file:
-            text = file.read()
-        response = get_embeddings(text, api_key, model_name)
-        responses[file_path] = response
+def process_files(input_file, input_prompt, output_file, api_key, model_name):
     
+    with open(input_file, 'r') as file:
+        text = file.read()
+
+    with open(input_prompt, 'r') as file:
+        prompt = file.read()
+
+    response = get_embeddings(text, prompt, api_key, model_name)
+
     with open(output_file, 'w') as outfile:
-        json.dump(responses, outfile, indent=4)
+        outfile.write(response)
 
 if __name__ == "__main__":
     if len(sys.argv) < 5:
@@ -98,10 +100,11 @@ if __name__ == "__main__":
     api_key_file = sys.argv[1]
     output_file = sys.argv[2]
     model_name = sys.argv[3]
-    input_files = sys.argv[4:]
+    input_file = sys.argv[4]
+    imput_prompt = sys.argv[5]
     
     api_key = load_api_key(api_key_file)
     
     # Process the input files and save the responses
-    process_files(input_files, output_file, api_key, model_name)
-    print(f"Responses have been saved to {output_file}")
+    process_files(input_file, imput_prompt, output_file, api_key, model_name)
+    print(f"Response have been saved to {output_file}")

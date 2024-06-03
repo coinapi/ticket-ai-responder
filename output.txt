@@ -1,3 +1,10 @@
-{
-    "q1.txt": "To download historical BTC/USD data from Kraken, you can use the CoinAPI.io platform. Here's how:\n\n1. Go to the CoinAPI.io website and create an account.\n2. Once you have an account, log in and navigate to the \"Start my order\" page.\n3. On the \"Start my order\" page, select \"Kraken\" as the exchange and \"BTC/USD\" as the trading pair.\n4. Choose the time period for which you want to download the data.\n5. Click on \"Add to cart\" and then \"Get instant quote.\"\n6. If everything looks correct, make the payment and the data will be immediately available for download via HTTP.\n7. You can then import the data"
-}
+To download historical data for the BTC/USD trading pair from the Kraken exchange, you can use our CryptoTick platform. Simply follow these steps:
+
+1. Go to the CryptoTick website and click on the "Start my order" button.
+2. Select the "BTC/USD" trading pair from the list of available assets.
+3. Choose the "Kraken" exchange from the list of available exchanges.
+4. Select the time period for which you want to download the data.
+5. Click on the "Add to cart" button.
+6. Review your order and click on the "Checkout" button.
+7. Enter your payment information and complete the purchase.
+8. Once the payment is processed, you will be able to download the
