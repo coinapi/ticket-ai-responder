@@ -1,0 +1,3 @@
+{
+    "q1.txt": "To download historical BTC/USD data from Kraken, you can use the CoinAPI.io platform. Here's how:\n\n1. Go to the CoinAPI.io website and create an account.\n2. Once you have an account, log in and navigate to the \"Start my order\" page.\n3. On the \"Start my order\" page, select \"Kraken\" as the exchange and \"BTC/USD\" as the trading pair.\n4. Choose the time period for which you want to download the data.\n5. Click on \"Add to cart\" and then \"Get instant quote.\"\n6. If everything looks correct, make the payment and the data will be immediately available for download via HTTP.\n7. You can then import the data"
+}
