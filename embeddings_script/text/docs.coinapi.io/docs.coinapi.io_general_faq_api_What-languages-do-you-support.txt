@@ -1,0 +1,20 @@
+
+
+
+
+
+What languages do you support? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountAPIDo you accept bank or wire transfers?Do you offer EMS Trading API?Empty response when using EMS endpointsFIX API Logon TroubleshootingGeographic locations and the LatencyHow are exchange rates calculated?How can I get OHLCV data by asset pair?How can I get the USD price for multiple assets at the same time?How can I see a list of symbols related to a specific exchange, market, or asset?How can I unsubscribe from Websocket?How to solve certificate validation error?How to use CoinAPI from Matlab?I received a reconnect message from WebsocketWhat are the restrictions on usage of real-time protocols?What are the time periods I can use for Exchange Rates and OHLCV?What happens if I exceed my plan’s REST API daily request limit?What is the rate limit for EMS Trading API?What languages do you support?What timezone is used for date/time values?Where can I find examples and SDK source codes for API?Why are limit headers not always showing on a request?Why are there no Exchange Rates data for some assets for a given period?Why do some symbols have additional prefix?Documenting Connectivity issuesBilling and SubscriptionsSecurity and PrivacyGlossaryChangelogFAQAPIWhat languages do you support?What languages do you support?Technically any language, but we have SDK and examples available in our GitHub repository [1] for:PythonRMATLABC#.NETC++JavaRubyGoJavaScriptTypeScriptNode.jsPHPHaskellObjective-CReference:[1] https://github.com/coinapi/coinapi-sdkWas this section helpful?12345PreviousWhat is the rate limit for EMS Trading API?NextWhat timezone is used for date/time values?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/api/What-languages-do-you-support)

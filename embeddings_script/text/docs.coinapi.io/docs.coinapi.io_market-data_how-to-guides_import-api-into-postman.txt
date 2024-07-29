@@ -1,0 +1,20 @@
+
+
+
+
+
+Import API into Postman | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyMarket Data APIAuthenticationAPI limits and billingREST APIWebSocket API V1WebSocket API DSJSON RPCFIX APIHow-to guidesAcquire exchange rates with different programming languagesBuilding a Cryptocurrency Portfolio Tracker Using React and CoinAPIBuilding a cryptocurrency exchange comparison tool using Market Data APICreating a historical crypto price chart using CoinAPI and D3.jsFetching market data with KNIMEGet Historical OHLCV Data Using CoinAPIGet symbol funding rate metric data using CoinAPIImport API into PostmanImport data to Google Sheets/ExcelReal-time data visualization with javascriptReal-time trades stream using WebSocket with different languagesRetrieve and analyze crypto order book data using a cryptocurrency APITrading Essentials: QuickstartPerformance Testing GuideHow-to guidesImport API into PostmanOn this pageImport API into PostmanIntroduction​Postman allows you to import OpenAPI specifications effortlessly.Step-by-step process​Copy the OpenAPI URL from the CoinAPI websiteOpen Postman's workspaceImport an OpenAPI specification by providing its URL.Review and confirm the generated collection.Start using your API collection for testing and development.Here's how to do it for Market Data API:Was this section helpful?12345PreviousGet symbol funding rate metric data using CoinAPINextImport data to Google Sheets/ExcelIntroductionStep-by-step processCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/market-data/how-to-guides/import-api-into-postman)

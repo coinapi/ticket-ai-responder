@@ -13,7 +13,7 @@ Get API endpoints | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountCertificateEndpointsGet API endpointsExchangeLocationFAQCustomer PortalChangelogEMS APIEMS - Managed Cloud REST APIEndpointsGet API endpointsGet API endpointsGET /v1/endpointsGet all API endpoints that the EMS API expose for your subscription.Query Parametersfilter_exchange_id anyExchange idResponses200OKapplication/jsonSchemaExample (from schema)SchemaArray [exchange_id stringExchange identifier and optional tag identifying specific account configured when the software will be managing multiple accounts on the same exchange; for eg:
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyEMS APIAuthenticationAPI limits and billingManaged Cloud REST APIAccountCertificateEndpointsGet API endpointsExchangeLocationREST APIWebSocket APIFIX APISelf Hosted GuideManaged Cloud REST APIEndpointsGet API endpointsGet API endpointsGET /v1/endpointsGet all API endpoints that the EMS API expose for your subscription.Query Parametersfilter_exchange_id anyExchange idResponses200OKapplication/jsonSchemaExample (from schema)SchemaArray [exchange_id stringExchange identifier and optional tag identifying specific account configured when the software will be managing multiple accounts on the same exchange; for eg:
 BITSTAMP
 BITSTAMP/7c177641-74bd-4dbe-9b01-2497c12a5f70`
 BITSTAMP/2574

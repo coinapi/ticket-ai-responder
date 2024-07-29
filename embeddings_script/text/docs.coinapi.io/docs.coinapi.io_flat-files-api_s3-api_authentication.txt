@@ -1,0 +1,21 @@
+
+
+
+
+
+Authentication < S3 API < Flat Files | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyFlat FilesBilling and UsageData & StructureS3 APIAuthenticationSDK GuidePush APIS3 APIAuthenticationOn this pageAuthentication for Flat Files S3 APIThe Flat Files S3 API uses S3-compatible authentication methods. This allows you to use existing S3 tools and libraries to access our data securely.Authentication Methods​API Key as Access Key ID: Your CoinAPI key serves as the Access Key ID.Static Secret Key: Use "coinapi" as the Secret Access Key.AWS Signature: Requests should be signed using AWS Signature Version 2 or 4.Configuration Examples​AWS CLI​Configure the AWS CLI with the following command:aws configureEnter the following information when prompted:AWS Access Key ID: YOUR_COINAPI_KEYAWS Secret Access Key: coinapiDefault region name: us-east-1Default output format: jsonS3 Browser​In S3 Browser, create a new account with these settings:Account Name: CoinAPI Flat FilesAccess Key ID: YOUR_COINAPI_KEYSecret Access Key: coinapiRest Endpoint: https://s3.flatfiles.coinapi.ioSDK Usage​When using S3 SDKs, configure the client as follows:import boto3s3 = boto3.client('s3',    aws_access_key_id='YOUR_COINAPI_KEY',    aws_secret_access_key='coinapi',    endpoint_url='http://s3.flatfiles.coinapi.io')Remember to replace 'YOUR_COINAPI_KEY' with your actual CoinAPI key in all examples.AWS Signature Authentication​AWS Signature Version 2​For this method of authorization, please put the API Key in both the Access Key ID and Secret Access Key fields.AWS Signature Version 4​Amazon S3 uses the Authorization request header to provide authorization information. The value for this header must follow a specific pattern described as AWS Signature Version 4.The example below shows the Authorization header value compliant with AWS Signature Version 4.Please note that the Credential string contains our apikey as access-key-id.
+Assuming that your API key is 73034021-THIS-IS-SAMPLE-KEY, then the authorization header you should send to us will look like:Authorization: AWS4-HMAC-SHA256Credential=73034021-THIS-IS-SAMPLE-KEY/20211203/us-east-1/s3/aws4_request,SignedHeaders=host;Signature=65e655c69da9906ac6076a28f75d9e4947aaed3be1f419757a3a84e24662673dAlthough AWS Signature Version 4 is very strict about each of the signature components, our API takes only our apikey value into account.Security Best Practices​Keep your API key confidential.Use HTTPS endpoints in production environments.Regularly rotate your API keys.Use the principle of least privilege when setting up IAM-like policies.For any questions or support needs regarding authentication, please contact our support team.Was this section helpful?12345PreviousS3 APINextSDK GuideAuthentication MethodsConfiguration ExamplesAWS CLIS3 BrowserSDK UsageAWS Signature AuthenticationAWS Signature Version 2AWS Signature Version 4Security Best PracticesCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/flat-files-api/s3-api/authentication)

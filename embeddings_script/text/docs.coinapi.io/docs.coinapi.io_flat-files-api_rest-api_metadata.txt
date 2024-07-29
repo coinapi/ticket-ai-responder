@@ -1,0 +1,20 @@
+
+
+
+
+
+Metadata | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyFlat FilesBilling and UsageData & StructureS3 APIPush APIMetadataList all exchanges by exchange_idList all exchangesList of symbols for the exchangePush APIMetadataMetadata📄️ List all exchanges by exchange_idList all exchanges by exchange_id📄️ List all exchangesGet a detailed list of exchanges provided by the system.📄️ List of symbols for the exchangeList of symbols for the exchangeWas this section helpful?12345PreviousPush APINextList all exchanges by exchange_idCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/flat-files-api/rest-api/metadata)

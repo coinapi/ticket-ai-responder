@@ -1,0 +1,22 @@
+
+
+
+
+
+How do I get an additional API key? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountHow I can update my credit card / billing information?How can I change my CoinAPI account's email address?How can I get an invoice or receipt?How do I make an account?I want to change my account's name?Managing Team MembersCan I add other users to my account?How do I get an additional API key?APIBilling and SubscriptionsSecurity and PrivacyGlossaryChangelogFAQCustomer AccountHow do I get an additional API key?How do I get an additional API key?You may obtain an additional API key through our Pricing Page [1] and in the Subscriptions tab of the Customer Portal [2]. For context, the existence of each additional API Key for a subscription (enabled or disabled) above the plan quota is charged 1 USD per day, with a minimum of one day.​​Multiple subscriptions are commonly used when:The software is shipped to multiple third-party's by the customer (eg. self-hosted software)To separate environments inside the company (development, testing, staging, production)To separate multiple independent production sites (EUROPE, ASIA, etc)To separate multiple teams inside the company working on different features or productsReferences:
+[1] https://www.coinapi.io/Pricing
+[2] https://customerportal.coinapi.io/subscriptionsWas this section helpful?12345PreviousCan I add other users to my account?NextAPICopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/account/how-do-I-get-an-additional-API-key)

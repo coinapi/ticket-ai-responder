@@ -1,0 +1,20 @@
+
+
+
+
+
+eth_getBlockReceipts | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyNaaS APIAuthenticationAPI limits and billingBitcoinEthereumMethodseth_blockNumbereth_calleth_chainIDeth_coinbaseeth_createAccessListeth_estimateGaseth_feeHistoryeth_gasPriceeth_createAccessListeth_getBlockByHasheth_getBlockByNumbereth_getBlockReceiptseth_getBlockTransactionCountByHasheth_getBlockTransactionCountByNumbereth_getCodeeth_getFilterChangeseth_getFilterLogseth_getLogseth_getProofeth_getStorageAteth_getTransactionByBlockHashAndIndexeth_getTransactionByBlockNumberAndIndexeth_getTransactionByHasheth_getTransactionCounteth_getTransactionReceipteth_getUncleByBlockHashAndIndexeth_getUncleByBlockNumberAndIndexeth_getUncleCountByBlockHasheth_getUncleCountByBlockNumbereth_getWorketh_hashrateeth_maxPriorityFeePerGaseth_miningeth_newBlockFiltereth_newFiltereth_newPendingTransactionFiltereth_protocolVersioneth_sendRawTransactioneth_signeth_signTransactioneth_submitWorketh_subscribesubscribePendingTransactionseth_syncingeth_uninstallFiltereth_unsubscribegetBeaconBlocksAttestationsgetBlockByRootgetTxPoolStatusnet_listeningnet_peerCountnet_versiontrace_blocktrace_calltrace_callManytrace_filtertrace_rawTransactiontrace_replayBlockTransactionstrace_replayTransactiontrace_transactiontxpool_contenttxpool_contentFromtxpool_inspectweb3_clientVersionweb3_sha3EthereumMethodseth_getBlockReceiptsOn this pageeth_getBlockReceiptsOverview​The 'eth_getBlockReceipts' method retrieves all transaction receipts for a specified block in the Ethereum blockchain. Transaction receipts provide details about the transaction's execution status, making them invaluable for tracking the status of transfers or contract execution on the blockchain.Request​{  "method": "eth_getBlockReceipts",  "params": ["blockIdentifier"],  "id": 1,  "jsonrpc": "2.0"}Request Parameters​blockIdentifier: An integer of a block encoded as hexadecimal or a string with options like:latest: The most recent block.safe: A block that received justification from the beacon chain.finalized: A block accepted as canonical by the majority of validators.earliest: The genesis block.pending: The current state of transactions not yet included in a block.Response​{  "id": 1,  "jsonrpc": "2.0",  "result": [    {      "blockHash": "blockHashValue",      "blockNumber": "blockNumberValue",      "transactionHash": "transactionHashValue",      ...    },    ...  ]}Was this section helpful?12345Previouseth_getBlockByNumberNexteth_getBlockTransactionCountByHashOverviewRequestRequest ParametersResponseCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/naas-api/ethereum/Methods/eth_getBlockReceipts)

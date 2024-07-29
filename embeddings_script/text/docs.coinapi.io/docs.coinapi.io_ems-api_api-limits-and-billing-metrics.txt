@@ -1,0 +1,40 @@
+
+
+
+
+
+API limits and billing metrics | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyEMS APIAuthenticationAPI limits and billingManaged Cloud REST APIREST APIWebSocket APIFIX APISelf Hosted GuideAPI limits and billingOn this pageAPI limits and billing metricsAPI limits are a crucial aspect of any API product, and they exist for several important reasons. They are designed to ensure fair usage and maintain the quality of service for all users.
+By implementing these limits, we can prevent any single user from overloading the system, which could potentially degrade the performance for others.
+This is a standard practice across the industry and is essential for maintaining a high level of service.One of the key limits we have in place is the Concurrency limit. This limit is specifically designed to protect our infrastructure.
+It controls the number of simultaneous API calls/requests that can be executed at any given moment.
+Each API call/request increases the Concurrency limit against your quota, and it decreases when the call/request finishes.
+This ensures that our servers are not overwhelmed by too many simultaneous requests, thereby ensuring smooth and efficient operation.The specific limits that apply to you depend on several factors. These include the plan you have subscribed to, the product you are using, and the protocol you are utilizing.
+Different products and protocols may have different limits, reflecting their varying requirements and capabilities.We understand that different users may have different needs, and we try to accommodate these requests whenever possible.
+Therefore, some limits, such as the Concurrency limit, can be requested to be increased through our support team.
+We review these requests on a case-by-case basis, taking into account factors such as your usage history and the capacity of our infrastructure.There are also limits that depend on your plan, such as the Request limit or the Node as a Service units limit.
+If you exceed these limits, you can continue to use our services by paying an overage fee. This allows us to maintain a high level of service for all users, even during periods of high demand.In conclusion, API limits are a necessary and important part of our service.
+They ensure that all users can enjoy a high-quality, reliable service, and they protect our infrastructure from being overwhelmed.Limits applied to our products​Product nameLimitsEMS API Cloud MgmtConcurrency limit / APIKeyEMS API REST APINo limitsEMS API WebSokcet APINo limitsEMS FIX APISession / APIKeyEach API Key can have one session, and when next session is stablished then current is disconnectedMultiple API keys for a subscription​At CoinAPI, we understand that our customers may have diverse needs and may require multiple API keys for a single subscription.
+We have designed our system to accommodate this requirement, allowing you to add additional API keys to your subscription. These keys operate within the confines of a single limit,
+ensuring that you have the flexibility you need without compromising on control.Each API key can be further customized with a more precise limit. This feature allows you to manage your usage effectively,
+ensuring that each key is used optimally and within its designated limit. This level of control can be particularly useful in managing resources and preventing overuse.In addition to these features, we also offer the ability for API calls using a specific API key to generate overage, i.e., exceed the quota.
+This can be particularly useful in situations where you anticipate a higher volume of calls. However, it's important to note that if the limit is exceeded,
+the API calls may be rejected to prevent overuse and maintain system integrity.
+All these settings, including the limits and the ability to set overage, can be managed from the Customer Portal.
+This ensures that you have complete control over your subscription and can make adjustments as and when needed.Customizing Limits for API Keys within a Subscription​If both API keys, each with a limit of 500, exhaust their allotted limits, reaching a combined total of 1000, further requests made using either key will be rejected until the limit resets.
+This ensures that the total usage across all keys within the subscription does not exceed the subscription limit.Exceeding Limits for API Keys within a Subscription​If one API key within the subscription exceeds its limit of 500, while the other key is still within its limit, requests made using the exceeded key will be
+rejected until the limit resets. However, requests made using the other key, which is still within its limit, will continue to be processed without interruption.infoIn summary, managing limits within a subscription involves ensuring that the usage across all API keys and services remains within the specified limits,
+with mechanisms in place to handle potential overages and maintain service availability and quality.Was this section helpful?12345PreviousAuthenticationNextManaged Cloud REST APILimits applied to our productsMultiple API keys for a subscriptionCustomizing Limits for API Keys within a SubscriptionExceeding Limits for API Keys within a SubscriptionCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/ems-api/api-limits-and-billing-metrics)

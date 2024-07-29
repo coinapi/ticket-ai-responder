@@ -1,0 +1,20 @@
+
+
+
+
+
+CoinAPI API Performance Testing Guide | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyMarket Data APIAuthenticationAPI limits and billingREST APIWebSocket API V1WebSocket API DSJSON RPCFIX APIHow-to guidesPerformance Testing GuidePerformance Testing GuideOn this pageCoinAPI API Performance Testing GuideThis guide provides detailed steps to test the performance of the CoinAPI API across REST, WebSocket, and FIX interfaces. It's designed to help you efficiently measure and analyze the API's performance.1. REST API Performance Testing​Test the latency of API requests using curl commands on Linux.Example Command​cat > curl-format.txt << EOF    time_namelookup:  %{time_namelookup}s\n    time_connect:  %{time_connect}s\n    time_appconnect:  %{time_appconnect}s\n    time_pretransfer:  %{time_pretransfer}s\n    time_redirect:  %{time_redirect}s\n    time_starttransfer:  %{time_starttransfer}s\n    ----------    time_total:  %{time_total}s\nEOFcurl --http2-prior-knowledge -w "@curl-format.txt" -o /dev/null -s "https://rest.coinapi.io/"2. WebSocket API Performance Testing​The WebSocket client application is designed for subscribing to data from our WebSocket service, capturing metrics such as message counts and latency.Note: This application is not intended to subscribe to all data feeds simultaneously as it uses only one connection. To effectively monitor various data types, consider creating multiple instances or using separate connections for each subscription type.Compilation and Running​Ensure .NET 8.0 or higher is installed.Navigate to the project directory and compile the application using dotnet build.Run the application with dotnet run and specify your parameters.For more details, visit the WebSocket Client Application Repository.3. FIX Protocol Testing​The FIX client enables session management, data subscription, and message processing using the QuickFix engine.Compilation and Running​Update config_nossl.cfg with your session settings.Compile the application with dotnet build in the project directory.Execute the compiled application to start your testing session.Access the complete source code and setup instructions at the FIX Client Application Repository.Good Practices for Performance Testing​Incorporating good practices into your testing strategy can significantly improve the reliability and efficiency of your performance testing. Here are some recommendations:Efficient Message Handling: Fetch messages from the connection as swiftly as possible and process them in a separate thread. This separation ensures that message retrieval is not bottlenecked by processing time.Monitoring and Separation: Keep a count of messages and manage their queue separately. This practice helps in isolating the fetching mechanism from the consumption process, allowing for more accurate performance measurements and streamlined processing.Utilize Multithreading Wisely: When employing multithreading, consider establishing multiple connections to distribute the load effectively. This approach can enhance throughput by leveraging parallel processing, especially in high-demand scenarios.Very Important​If latency increases, it is necessary to split data acquisition across multiple connections to utilize more threads effectively.By adhering to these practices, including the emphasized point on managing increasing latency through distributed data acquisition, you can ensure a more robust and efficient performance testing process.This guide aims to streamline your API performance testing across different interfaces. For further assistance, refer to the detailed documentation provided in the links above.Was this section helpful?12345PreviousTrading Essentials: Quickstart1. REST API Performance TestingExample Command2. WebSocket API Performance TestingCompilation and Running3. FIX Protocol TestingCompilation and RunningGood Practices for Performance TestingVery ImportantCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/market-data/performance-testing-guide)

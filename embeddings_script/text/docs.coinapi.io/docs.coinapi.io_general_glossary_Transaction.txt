@@ -1,0 +1,20 @@
+
+
+
+
+
+Transaction | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGlossaryBlockchain Address and OutputBlockchain NodeChain (Blockchain)EndpointJSONNetworkSatoshiTransactionWalletBlockchain BlockChangelogGlossaryTransactionOn this pageTransactionTransaction​A Transaction is a transfer of value between wallets that is included in the blockchain. Transactions are the fundamental operations in a blockchain network, representing the movement of assets from one party to another.Key Characteristics​Inputs and Outputs: Each transaction has one or more inputs (sources of funds) and one or more outputs (destinations of funds).Validation: Transactions are validated by nodes in the network to ensure that the sender has sufficient balance and that the transaction adheres to the network's rules.Inclusion in Blocks: Once validated, transactions are grouped into blocks, which are then added to the blockchain.Importance​Value Transfer: Transactions enable the transfer of value in a secure and transparent manner.Record Keeping: Each transaction is permanently recorded on the blockchain, providing an immutable history of all transfers.Was this section helpful?12345PreviousSatoshiNextWalletTransactionCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/glossary/Transaction)

@@ -1,0 +1,20 @@
+
+
+
+
+
+JSON | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGlossaryBlockchain Address and OutputBlockchain NodeChain (Blockchain)EndpointJSONNetworkSatoshiTransactionWalletBlockchain BlockChangelogGlossaryJSONOn this pageJSONJSON​JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and for machines to parse and generate. JSON is widely used for transmitting data in web applications between clients and servers.Key Characteristics​Syntax: JSON syntax is derived from JavaScript object notation and includes key-value pairs, arrays, and nested structures.Readability: JSON is designed to be human-readable, with a simple and intuitive structure.Interoperability: JSON is language-agnostic and can be used across various programming languages, making it a versatile choice for data interchange.Usage​APIs: JSON is commonly used in APIs to format the data exchanged between the server and client.Configuration Files: Many applications use JSON to store configuration settings and other structured data.Was this section helpful?12345PreviousEndpointNextNetworkJSONCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/glossary/JSON)

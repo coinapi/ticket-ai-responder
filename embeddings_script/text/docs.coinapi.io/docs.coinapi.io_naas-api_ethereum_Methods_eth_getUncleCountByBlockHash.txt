@@ -1,0 +1,20 @@
+
+
+
+
+
+eth_getUncleCountByBlockHash | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyNaaS APIAuthenticationAPI limits and billingBitcoinEthereumMethodseth_blockNumbereth_calleth_chainIDeth_coinbaseeth_createAccessListeth_estimateGaseth_feeHistoryeth_gasPriceeth_createAccessListeth_getBlockByHasheth_getBlockByNumbereth_getBlockReceiptseth_getBlockTransactionCountByHasheth_getBlockTransactionCountByNumbereth_getCodeeth_getFilterChangeseth_getFilterLogseth_getLogseth_getProofeth_getStorageAteth_getTransactionByBlockHashAndIndexeth_getTransactionByBlockNumberAndIndexeth_getTransactionByHasheth_getTransactionCounteth_getTransactionReceipteth_getUncleByBlockHashAndIndexeth_getUncleByBlockNumberAndIndexeth_getUncleCountByBlockHasheth_getUncleCountByBlockNumbereth_getWorketh_hashrateeth_maxPriorityFeePerGaseth_miningeth_newBlockFiltereth_newFiltereth_newPendingTransactionFiltereth_protocolVersioneth_sendRawTransactioneth_signeth_signTransactioneth_submitWorketh_subscribesubscribePendingTransactionseth_syncingeth_uninstallFiltereth_unsubscribegetBeaconBlocksAttestationsgetBlockByRootgetTxPoolStatusnet_listeningnet_peerCountnet_versiontrace_blocktrace_calltrace_callManytrace_filtertrace_rawTransactiontrace_replayBlockTransactionstrace_replayTransactiontrace_transactiontxpool_contenttxpool_contentFromtxpool_inspectweb3_clientVersionweb3_sha3EthereumMethodseth_getUncleCountByBlockHashOn this pageeth_getUncleCountByBlockHashOverview​The method 'eth_getUncleCountByBlockHash' returns the number of uncles in a block from a block matching the given block hash.Request​curlpythonrubycurl https://ethereum-mainnet-quicknode.node.coinapi.io/apikey-XXX/ \  -X POST \  -H "Content-Type: application/json" \  --data '{"method":"eth_getUncleCountByBlockHash","params":["0x829df9bb801fc0494abf2f443423a49ffa32964554db71b098d332d87b70a48b"],"id":1,"jsonrpc":"2.0"}'import requestsimport jsonurl = "curl https://ethereum-mainnet-quicknode.node.coinapi.io/apikey-XXX/"payload = json.dumps({  "method": "eth_getUncleCountByBlockHash",  "params": [    "0x829df9bb801fc0494abf2f443423a49ffa32964554db71b098d332d87b70a48b"  ],  "id": 1,  "jsonrpc": "2.0"})headers = {  'Content-Type': 'application/json'}response = requests.request("POST", url, headers=headers, data=payload)print(response.text)require "uri"require "json"require "net/http"url = URI("https://ethereum-mainnet-quicknode.node.coinapi.io/apikey-XXX/")https = Net::HTTP.new(url.host, url.port)https.use_ssl = truerequest = Net::HTTP::Post.new(url)request["Content-Type"] = "application/json"request.body = JSON.dump({  "method": "eth_getUncleCountByBlockHash",  "params": [    "0x829df9bb801fc0494abf2f443423a49ffa32964554db71b098d332d87b70a48b"  ],  "id": 1,  "jsonrpc": "2.0"})response = https.request(request)puts response.read_bodyRequest Parameters​block hash: [ Required ] A string representing the hash (32 bytes) of a block.Response​{  "jsonrpc":"2.0",  "id":1,  "result":"0x0"}block uncle count: A hexadecimal equivalent of the integer representing the number of uncles in the block.Was this section helpful?12345Previouseth_getUncleByBlockNumberAndIndexNexteth_getUncleCountByBlockNumberOverviewRequestRequest ParametersResponseCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/naas-api/ethereum/Methods/eth_getUncleCountByBlockHash)

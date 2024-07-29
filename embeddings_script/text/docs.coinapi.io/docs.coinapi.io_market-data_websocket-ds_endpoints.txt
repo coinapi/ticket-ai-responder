@@ -1,0 +1,20 @@
+
+
+
+
+
+Endpoints | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyMarket Data APIAuthenticationAPI limits and billingREST APIWebSocket API V1WebSocket API DSEndpointsGeneralMessagesJSON RPCFIX APIHow-to guidesPerformance Testing GuideWebSocket API DSEndpointsEndpointsEnviromentEncryptionValueProductionYeswss://lowecase-exchange-name.ws-ds.md.coinapi.io/(eg. wss://coinbase.ws-ds.md.coinapi.io/)ProductionYeswss://cross-connect-endpoint/ws/ws-ds-lowecase-exchange-name/(eg. wss://cross-connect-endpoint/ws/ws-ds-coinbase/)ProductionNows://lowecase-exchange-name.ws-ds.md.coinapi.io/(eg. ws://coinbase.ws-ds.md.coinapi.io/)ProductionNows://cross-connect-endpoint/ws/ws-ds-lowecase-exchange-name/(eg. ws://cross-connect-endpoint/ws/ws-ds-coinbase/)For testing, debugging and development purposes we are recommending:wscat client from the npm package repository: https://github.com/websockets/wscatsandy standalone WebSocket client with our message templates available at: https://app.gosandy.io/?url=https://raw.githubusercontent.com/coinapi/coinapi-sdk/master/data-api/sandy-ws-v1.json&u=ArWas this section helpful?12345PreviousWebSocket API DSNextGeneralCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/market-data/websocket-ds/endpoints)

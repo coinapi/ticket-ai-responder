@@ -1,0 +1,25 @@
+
+
+
+
+
+Authentication | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyEMS APIAuthenticationAPI limits and billingManaged Cloud REST APIREST APIWebSocket APIFIX APISelf Hosted GuideAuthenticationOn this pageAuthenticationIn this section, you will find comprehensive information about the process of CoinAPI authentication.
+It covers the fundamental aspects and procedures involved in obtaining authentication for CoinAPI usage.
+Whether you are new to CoinAPI or seeking to enhance your understanding of the authentication process, this section will provide you with a valuable overview of the topic.There are different types of authentication methods available to secure and control access to its services.API Key - fundamental method of authentication that involves the usage of an API key for authentication and access control.API Key + JWT token - extended authentication method that combines the use of an API key along with a JWT token for enhanced security and authentication.
+Useful when you need to share the API Key publicly, for example when accessing the CoinAPI endpoints from the frontend JavaScript code exposed to the end-users.
+JWT token will be required along the API Key from the CoinAPI side to perform successful authentication, and the JWT tokens can be only generated from your side as you know the secret (private key or secret) based on which JWT token with the specified expiration time are issued.Authentication methods supported by the API​Here's an overview of the various products offered by CoinAPI and the supported authentication methods for each product.
+To use resources that require authorized access, you will need to use one of the many authentication methods described below.Product nameAPIX-CoinAPI-Key headerQuery paramTLS Client CertSenderCompIDEMSManaged Cloud REST✅✅❌❌EMSREST✅✅✅❌EMSWS✅✅✅❌EMSFIX❌❌✅✅cautionIf you are using the Authorization header to pass the API key, please note that it cannot be used together with a JWT token. In case you have enabled JWT authentication, we recommend using alternative methods to pass the API key such as: a Custom authentication header, Query string parameter, or API Key in the URL.X-CoinAPI-Key header​You can authorize by providing an additional custom header named X-CoinAPI-Key and API key as its value.Assuming that your API key is 73034021-THIS-IS-SAMPLE-KEY, then the authentication header you should send to us will look like:X-CoinAPI-Key: 73034021-THIS-IS-SAMPLE-KEYQuery string parameter (apikey)​You can authorize by providing an additional parameter named apikey with a value equal to your API key in the query string of your HTTP request.Assuming that your API key is 73034021-THIS-IS-SAMPLE-KEY and that you want to request all exchange rates from BTC asset, then your query string should look like this: GET /v1/exchangerate/BTC?apikey=73034021-THIS-IS-SAMPLE-KEYcautionThe Query string method may be more practical for development activities.TLS Client Cert​TLS Client Certificate acquired from the Managed Cloud REST API (/v1/certificate/pem endpoint) provided while establishing a TLS session with us.SenderCompID​This method of authentication is FIX protocol-specific. The exact message that needs to be sent to us will be described in the documentation of the specific API protocol Logon (35=A) message page.Was this section helpful?12345PreviousEMS APINextAPI limits and billingAuthentication methods supported by the APIX-CoinAPI-Key headerQuery string parameter (apikey)TLS Client CertSenderCompIDCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/ems-api/authentication)

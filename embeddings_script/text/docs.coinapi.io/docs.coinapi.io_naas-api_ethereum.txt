@@ -1,0 +1,24 @@
+
+
+
+
+
+Ethereum | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyNaaS APIAuthenticationAPI limits and billingBitcoinEthereumMethodsEthereumOn this pageEthereumTo access the ethereum blockchain documentation, please visit ethereum.org.Clients​Clients are software implementations that enable nodes to participate in the network.In our infrastructure, we currently support two major Ethereum clients: Geth and Erigon.
+Users can interact with these clients through dedicated endpoints.Our support extends to both the archived and current versions of Geth.
+The archived variant encapsulates historical data, while the current version mirrors the latest state of the Ethereum network.For users leveraging Erigon, we provide access to archived versionsThe archived mode clients are tailored for historical analysis and research,
+while the current mode clients deliver real-time data for applications requiring the latest Ethereum network state.infoWhen interacting with the Ethereum network using the endpoint mainnet-ethereum.node.coinapi.io,
+it's important to note that queries may be directed to either geth or erigon based on our infrastructure's load balancing.Endpoints​The following lists all the Ethereum network endpoints supported by NaaS API.ChainNetworkNode URLProtocolSoftwareSoftware VersionModeEthereumMainnethttps://ethereum-mainnet.node.coinapi.iohttpsEthereumMainnetwss://ethereum-mainnet.node.coinapi.iowsEthereumMainnethttps://ethereum-mainnet-erigon.node.coinapi.iohttpserigonv.2.48.1archivedEthereumMainnetwss://ethereum-mainnet-erigon.node.coinapi.iowserigonv.2.48.1archivedEthereumMainnethttps://ethereum-mainnet-geth-archive.node.coinapi.iohttpserigonv.2.48.1archivedEthereumMainnetwss://ethereum-mainnet-geth-archive.node.coinapi.iowserigonv.2.48.1archivedEthereumMainnethttps://ethereum-mainnet-geth-current.node.coinapi.iohttpsgethv.1.12.0currentEthereumMainnetwss://ethereum-mainnet-geth-current.node.coinapi.iowssgethv.1.12.0currentEthereumMainnethttps://ethereum-mainnet-quicknode.node.coinapi.iohttpsgethv.1.12.0archivedEthereumMainnetwss://ethereum-mainnet-quicknode.node.coinapi.iowssgethv.1.12.0archivedWas this section helpful?12345PreviouslisttransactionsNexteth_blockNumberClientsEndpointsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/naas-api/ethereum)

@@ -1,0 +1,20 @@
+
+
+
+
+
+Blockchain Address and Output | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGlossaryBlockchain Address and OutputBlockchain NodeChain (Blockchain)EndpointJSONNetworkSatoshiTransactionWalletBlockchain BlockChangelogGlossaryBlockchain Address and OutputOn this pageBlockchain Address and OutputBlockchain Address​A blockchain address is a unique identifier used to send and receive transactions on a blockchain network. It functions similarly to an email address for cryptocurrency payments, allowing users to receive funds from others. Blockchain addresses are usually derived from a public key and are presented as a string of alphanumeric characters. They are crucial for maintaining the security and integrity of transactions within the blockchain ecosystem.Key Characteristics​Uniqueness: Each blockchain address is unique, ensuring that transactions are accurately routed to the correct recipient.Public Key Derivation: Addresses are typically generated from the public key of a public-private key pair.Format: The format of a blockchain address varies depending on the cryptocurrency (e.g., Bitcoin, Ethereum) and often includes a checksum to detect errors.Blockchain Output​A blockchain output refers to the part of a transaction that specifies the amount of cryptocurrency being sent and the destination address. It is an essential component of the transaction structure in blockchain networks, determining how much value is transferred and to whom.Key Characteristics​Value: The amount of cryptocurrency specified in the output.Destination Address: The blockchain address that will receive the specified amount of cryptocurrency.UTXO (Unspent Transaction Output): In UTXO-based cryptocurrencies like Bitcoin, outputs that have not been spent are considered UTXOs and can be used as inputs for new transactions.Transaction Process​When a transaction is created, it includes one or more inputs (sources of funds) and one or more outputs (destinations of funds). The sum of the inputs must be equal to or greater than the sum of the outputs, and any difference is usually given as a transaction fee to the miners.Example​In a Bitcoin transaction:Input: Previous unspent transaction outputs (UTXOs) being used to fund the new transaction.Output: New UTXOs specifying the amounts and addresses receiving the funds.Understanding blockchain addresses and outputs is fundamental to comprehending how transactions are structured and processed in a blockchain network, ensuring secure and efficient transfer of value.Was this section helpful?12345PreviousGlossaryNextBlockchain NodeBlockchain AddressBlockchain OutputTransaction ProcessCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/glossary/Blockchain_Address_and_Output)

@@ -13,7 +13,7 @@ Delete account | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIEMS APISelf Hosted GuideREST APIWebSocket APIFIX APIEMS - Managed Cloud REST APIAccountDelete accountDelete all accountsGet accountsAdd or update accountCertificateEndpointsExchangeLocationFAQCustomer PortalChangelogEMS APIEMS - Managed Cloud REST APIAccountDelete accountDelete accountDELETE /v1/accountsDelete specific exchange account maintained by the EMS API for your subscription.Query Parametersexchange_id any requiredExchange identifier of the account to deleteResponses404Exchange account not foundLoading...Was this section helpful?12345PreviousAccountNextDelete all accountsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyEMS APIAuthenticationAPI limits and billingManaged Cloud REST APIAccountDelete accountDelete all accountsGet accountsAdd or update accountCertificateEndpointsExchangeLocationREST APIWebSocket APIFIX APISelf Hosted GuideManaged Cloud REST APIAccountDelete accountDelete accountDELETE /v1/accountsDelete specific exchange account maintained by the EMS API for your subscription.Query Parametersexchange_id any requiredExchange identifier of the account to deleteResponses404Exchange account not foundLoading...Was this section helpful?12345PreviousAccountNextDelete all accountsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
 
 
 

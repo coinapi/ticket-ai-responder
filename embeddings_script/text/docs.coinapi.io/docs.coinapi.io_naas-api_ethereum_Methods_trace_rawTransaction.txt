@@ -1,0 +1,20 @@
+
+
+
+
+
+trace_rawTransaction | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyNaaS APIAuthenticationAPI limits and billingBitcoinEthereumMethodseth_blockNumbereth_calleth_chainIDeth_coinbaseeth_createAccessListeth_estimateGaseth_feeHistoryeth_gasPriceeth_createAccessListeth_getBlockByHasheth_getBlockByNumbereth_getBlockReceiptseth_getBlockTransactionCountByHasheth_getBlockTransactionCountByNumbereth_getCodeeth_getFilterChangeseth_getFilterLogseth_getLogseth_getProofeth_getStorageAteth_getTransactionByBlockHashAndIndexeth_getTransactionByBlockNumberAndIndexeth_getTransactionByHasheth_getTransactionCounteth_getTransactionReceipteth_getUncleByBlockHashAndIndexeth_getUncleByBlockNumberAndIndexeth_getUncleCountByBlockHasheth_getUncleCountByBlockNumbereth_getWorketh_hashrateeth_maxPriorityFeePerGaseth_miningeth_newBlockFiltereth_newFiltereth_newPendingTransactionFiltereth_protocolVersioneth_sendRawTransactioneth_signeth_signTransactioneth_submitWorketh_subscribesubscribePendingTransactionseth_syncingeth_uninstallFiltereth_unsubscribegetBeaconBlocksAttestationsgetBlockByRootgetTxPoolStatusnet_listeningnet_peerCountnet_versiontrace_blocktrace_calltrace_callManytrace_filtertrace_rawTransactiontrace_replayBlockTransactionstrace_replayTransactiontrace_transactiontxpool_contenttxpool_contentFromtxpool_inspectweb3_clientVersionweb3_sha3EthereumMethodstrace_rawTransactionOn this pagetrace_rawTransactionOverview​The 'trace_rawTransaction' method allows users to retrieve internal transactions that occurred during the execution of a specific Ethereum transaction. This is particularly useful for understanding the internal operations of complex smart contract interactions.Request​{  "transaction_hash": "YOUR_TRANSACTION_HASH",  "api_key": "YOUR_API_KEY"}Request Parameters​transaction_hash: The hash of the Ethereum transaction you want to trace.api_key: Your CoinAPI API key.Response​{  "transaction_hash": "YOUR_TRANSACTION_HASH",  "block_number": 1234567,  "from_address": "0xSenderAddress",  "to_address": "0xReceiverAddress",  "value": "0.5 ETH",  "gas_used": 21000,  "internal_transactions": [    {      "from_address": "0xInternalSender",      "to_address": "0xInternalReceiver",      "value": "0.1 ETH",      "gas_used": 5000    }    // ... more internal transactions if any  ]}Errors​Invalid Request: This error is returned if the request format is incorrect.Internal Error: This error is returned if there's a server-side issue processing the request.Rate Limits​Please note that there are rate limits applied to the API to ensure fair usage. Free-tier users are limited to 100 requests per day, while premium users can make up to 1000 or more requests per day.Support​If you encounter any issues or have further questions regarding the eth_getBlockByHash method, please contact our support team at [email protected].Was this section helpful?12345Previoustrace_filterNexttrace_replayBlockTransactionsOverviewRequestRequest ParametersResponseErrorsRate LimitsSupportCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/naas-api/ethereum/Methods/trace_rawTransaction)

@@ -1,0 +1,27 @@
+
+
+
+
+
+Geographic locations and the Latency | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountAPIDo you accept bank or wire transfers?Do you offer EMS Trading API?Empty response when using EMS endpointsFIX API Logon TroubleshootingGeographic locations and the LatencyHow are exchange rates calculated?How can I get OHLCV data by asset pair?How can I get the USD price for multiple assets at the same time?How can I see a list of symbols related to a specific exchange, market, or asset?How can I unsubscribe from Websocket?How to solve certificate validation error?How to use CoinAPI from Matlab?I received a reconnect message from WebsocketWhat are the restrictions on usage of real-time protocols?What are the time periods I can use for Exchange Rates and OHLCV?What happens if I exceed my plan’s REST API daily request limit?What is the rate limit for EMS Trading API?What languages do you support?What timezone is used for date/time values?Where can I find examples and SDK source codes for API?Why are limit headers not always showing on a request?Why are there no Exchange Rates data for some assets for a given period?Why do some symbols have additional prefix?Documenting Connectivity issuesBilling and SubscriptionsSecurity and PrivacyGlossaryChangelogFAQAPIGeographic locations and the LatencyGeographic locations and the LatencyWe continuously expand our data centers, but currently, the API endpoints are located in: - AWS us-east-1
+ - AWS eu-central-1
+ - AWS eu-west-1
+ - USA Chicago (AS7922, AS812, AS10796)
+ - USA New York (AS7922, AS812, AS10796)
+ - UK London (AS2856, AS13285, AS5089)
+ - Poland Warsaw (AS174)
+ - Asia Tokyo (AS17676, AS2516, AS4713)Historical data delivered using the REST API (all /history and several /latest endpoints) and the flat files are generated in the separate process where we replay all the markets (seen from different locations) and create a single data feed prone to issues related to specific geographic areas like network issues etc.Real-time data delivered using the REST (all /current and several /latest endpoints), WebSocket, and the FIX API originates from the specific site where the customer was connected. On the Enterprise Plan, it's possible to have direct access to the sites or set up AWS VPC Peering in that case latency between our infrastructure and the customer is below one millisecond. If the connection was established to the public endpoint, then it's routed using the GeoDNS to the closest site; latency then depends on the distance between the customer and the site where the connection was routed [~20ms].Was this section helpful?12345PreviousFIX API Logon TroubleshootingNextHow are exchange rates calculated?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/api/Geographic-locations-and-the-Latency)

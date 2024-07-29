@@ -1,0 +1,20 @@
+
+
+
+
+
+trace_filter | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyNaaS APIAuthenticationAPI limits and billingBitcoinEthereumMethodseth_blockNumbereth_calleth_chainIDeth_coinbaseeth_createAccessListeth_estimateGaseth_feeHistoryeth_gasPriceeth_createAccessListeth_getBlockByHasheth_getBlockByNumbereth_getBlockReceiptseth_getBlockTransactionCountByHasheth_getBlockTransactionCountByNumbereth_getCodeeth_getFilterChangeseth_getFilterLogseth_getLogseth_getProofeth_getStorageAteth_getTransactionByBlockHashAndIndexeth_getTransactionByBlockNumberAndIndexeth_getTransactionByHasheth_getTransactionCounteth_getTransactionReceipteth_getUncleByBlockHashAndIndexeth_getUncleByBlockNumberAndIndexeth_getUncleCountByBlockHasheth_getUncleCountByBlockNumbereth_getWorketh_hashrateeth_maxPriorityFeePerGaseth_miningeth_newBlockFiltereth_newFiltereth_newPendingTransactionFiltereth_protocolVersioneth_sendRawTransactioneth_signeth_signTransactioneth_submitWorketh_subscribesubscribePendingTransactionseth_syncingeth_uninstallFiltereth_unsubscribegetBeaconBlocksAttestationsgetBlockByRootgetTxPoolStatusnet_listeningnet_peerCountnet_versiontrace_blocktrace_calltrace_callManytrace_filtertrace_rawTransactiontrace_replayBlockTransactionstrace_replayTransactiontrace_transactiontxpool_contenttxpool_contentFromtxpool_inspectweb3_clientVersionweb3_sha3EthereumMethodstrace_filterOn this pagetrace_filterOverview​The 'trace_filter' method allows users to retrieve internal Ethereum transaction traces based on a set of filter conditions. This is particularly useful for developers and analysts who need to inspect the internal operations of Ethereum transactions.Request​{  "fromBlock": "0x1",  "toBlock": "0x2",  "fromAddress": ["0x..."],  "toAddress": ["0x..."],  "after": 1,  "count": 10}Request Parameters​fromBlock (string): The starting block number.toBlock (string): The ending block number.fromAddress (array of strings): Addresses that the transactions are sent from.toAddress (array of strings): Addresses that the transactions are sent to.after (integer): The offset number.count (integer): The maximum number of results to return.Response​[  {    "type": "call",    "action": {      "from": "0x...",      "to": "0x...",      "value": "0x...",      "gas": "0x...",      "input": "0x...",      "callType": "call"    },    "result": {      "gasUsed": "0x...",      "output": "0x..."    },    "traceAddress": ["0x..."],    "subtraces": 0,    "transactionHash": "0x...",    "transactionPosition": 0,    "blockNumber": "0x...",    "blockHash": "0x..."  }]Errors​Invalid Request: This error is returned if the request format is incorrect.Internal Error: This error is returned if there's a server-side issue processing the request.Rate Limits​Please note that there are rate limits applied to the API to ensure fair usage. Free-tier users are limited to 100 requests per day, while premium users can make up to 1000 or more requests per day.Support​If you encounter any issues or have further questions regarding the eth_getBlockByHash method, please contact our support team at [email protected].Was this section helpful?12345Previoustrace_callManyNexttrace_rawTransactionOverviewRequestRequest ParametersResponseErrorsRate LimitsSupportCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/naas-api/ethereum/Methods/trace_filter)

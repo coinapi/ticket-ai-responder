@@ -1,0 +1,20 @@
+
+
+
+
+
+trace_replayTransaction | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyNaaS APIAuthenticationAPI limits and billingBitcoinEthereumMethodseth_blockNumbereth_calleth_chainIDeth_coinbaseeth_createAccessListeth_estimateGaseth_feeHistoryeth_gasPriceeth_createAccessListeth_getBlockByHasheth_getBlockByNumbereth_getBlockReceiptseth_getBlockTransactionCountByHasheth_getBlockTransactionCountByNumbereth_getCodeeth_getFilterChangeseth_getFilterLogseth_getLogseth_getProofeth_getStorageAteth_getTransactionByBlockHashAndIndexeth_getTransactionByBlockNumberAndIndexeth_getTransactionByHasheth_getTransactionCounteth_getTransactionReceipteth_getUncleByBlockHashAndIndexeth_getUncleByBlockNumberAndIndexeth_getUncleCountByBlockHasheth_getUncleCountByBlockNumbereth_getWorketh_hashrateeth_maxPriorityFeePerGaseth_miningeth_newBlockFiltereth_newFiltereth_newPendingTransactionFiltereth_protocolVersioneth_sendRawTransactioneth_signeth_signTransactioneth_submitWorketh_subscribesubscribePendingTransactionseth_syncingeth_uninstallFiltereth_unsubscribegetBeaconBlocksAttestationsgetBlockByRootgetTxPoolStatusnet_listeningnet_peerCountnet_versiontrace_blocktrace_calltrace_callManytrace_filtertrace_rawTransactiontrace_replayBlockTransactionstrace_replayTransactiontrace_transactiontxpool_contenttxpool_contentFromtxpool_inspectweb3_clientVersionweb3_sha3EthereumMethodstrace_replayTransactionOn this pagetrace_replayTransactionOverview​The 'trace_replayTransaction' method is used to replay a transaction and retrieve trace data which can be useful for debugging. This method is available by default for all Build & Scale plans. If you are using the Discover plan, you will need to upgrade to a paid plan to utilize this method. For more information on pricing, please refer to our pricing page. Note that this method is supported only on OpenEthereum & Erigon.Request​{  "jsonrpc": "2.0",  "method": "trace_replayTransaction",  "params": ["0x...transactionHash...", ["trace", "vmTrace", "stateDiff"]],  "id": 1}Request Parameters​transactionHash (String): The hash of the transaction you want to replay.traceTypes (Array of Strings): The types of traces to return. Options include "trace", "vmTrace", and "stateDiff".Response​{  "jsonrpc": "2.0",  "id": 1,  "result": {    "output": "0x...",    "stateDiff": {},    "trace": [],    "vmTrace": {}  }}Errors​Invalid Request: This error is returned if the request format is incorrect.Internal Error: This error is returned if there's a server-side issue processing the request.Rate Limits​Please note that there are rate limits applied to the API to ensure fair usage. Free-tier users are limited to 100 requests per day, while premium users can make up to 1000 or more requests per day.Support​If you encounter any issues or have further questions regarding the eth_getBlockByHash method, please contact our support team at [email protected].Was this section helpful?12345Previoustrace_replayBlockTransactionsNexttrace_transactionOverviewRequestRequest ParametersResponseErrorsRate LimitsSupportCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/naas-api/ethereum/Methods/trace_replayTransaction)

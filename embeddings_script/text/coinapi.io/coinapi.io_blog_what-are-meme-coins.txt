@@ -1,0 +1,346 @@
+CoinAPI Blog - What are Meme Coins? Top 25 Funniest Examples and Prices Introducing EMS Trading API  EMS Trading API- Unlimited trading accounts in just one place.Learn moreToggle navigationGet a free API keyProductsProductsMarket Data APIInstant crypto dataEMS Trading APIMulti-exchange accessCryptoTickMarket data in flat filesNode as a ServiceBlockchain infrastructureOn-Chain APIMultichain raw dataHelp CenterRequest contact from SalesKnowledge Base and Support PortalAPI DocsPricingSupportCustomersUse casesCrypto walletsAnalitycsCrypto index providersCrypto taxes and accountingInvestmentPortfolio managementCrypto custodyCrypto miningBrokersCrypto bot tradingResearch in universitiesCase studiesShow allEmpowering traders with real-time data  Read StoryPowering Cryptocurrency Simulation Tools and Contest Read StoryElevating crypto alerting app capabilities with CoinAPI Read StoryAll Case StudiesBlogLog inMarket Data APIWhat are Meme Coins? Top 25 Funniest Examples and PricesLet’s have some fun! Because after all, who said that investing and entertainment shouldn’t come in pairs? Today we will abandon the images native to Wall Street in the 1970s. Zero elegant gentlemen in hats, suits, and with briefcases in hand. Instead, a lot of crazy doggies, sad hamsters, and toads. We will take a look into the world of gaming, as well as the… the adult film industry. Although, we’ll still talk about coins, business, and investments. 
+From the following text, you will learn:
+
+what is the definition of meme coin
+25 meme coin examples with stories behind them and prices
+how to easily collect data on their current and historical prices on various exchanges. 
+
+What is a meme coin? Definition
+A meme coin is a type of cryptocurrency that is inspired by internet memes, jokes, or pop culture references. These coins are typically created as a form of satire or humor, but they have gained significant attention and value in the crypto market due to their viral nature and community-driven promotion. Here are some key characteristics of meme coins:
+Key characteristics of meme coins
+
+Humorous or satirical origin
+Meme coins often start as jokes or parodies of other cryptocurrencies. For example, Dogecoin was created as a parody of Bitcoin, featuring the Shiba Inu dog from the “Doge” meme​.
+Community-driven 
+The success of meme coins largely depends on the community that supports and promotes them. This can lead to high volatility as their value is often driven by social media trends and viral marketing rather than intrinsic utility​​.
+High volatility
+Meme coins are known for their dramatic price fluctuations. Their value can surge or plummet rapidly based on market sentiment and online hype​ – like when Elon Musk tweeted​ about Pepe Coin firing a coin value toward the moon.
+Low or no fundamental utility
+Many meme coins don’t have significant use cases or technological advancements. They primarily rely on their viral appeal and community engagement​. However, we’ll prove in this article that this doesn’t apply to all meme coins. Some promote environmental and charitable initiatives, others use the modern Play-to-Earn mechanism and some carry ground-breaking technology.
+Speculative Nature
+Investing in meme coins is highly speculative. While some investors have seen massive returns, the majority of meme coins can also lead to significant losses due to their volatile nature​.
+
+Important! The meme coin prices listed below are for June 2024 and are approximate. Why so? First, because the prices of each cryptocurrency sometimes vary on different exchanges. Secondly, even if you are reading this article right after its publication, in the world of cryptocurrencies light years have passed and prices may have changed many times.
+But don’t worry, because if you want, you can track live cryptocurrency prices, for example, thanks to the Market Data API, which we’ll tell you more about at the end of this article.
+Ok, now let’s go on a journey through the crazy land of meme coins!
+1. Dogecoin (DOGE)
+Dogecoin (DOGE) was created in December 2013 by software engineers Billy Markus and Jackson Palmer. Initially conceived as a joke or a “fun” cryptocurrency, it was inspired by the popular “Doge” meme featuring a Shiba Inu dog. The creators aimed to create a more approachable and less serious alternative to Bitcoin. Despite its humorous origins, Dogecoin quickly developed a strong and active community. The coin gained mainstream attention, particularly due to endorsements from high-profile figures like Elon Musk, who frequently tweeted about Dogecoin, significantly impacting its price and popularity (after the first tweet, it soared 20%).
+
+One word: Doge
+— Elon Musk (@elonmusk) December 20, 2020
+
+In addition, Elon’s Tesla introduced Dogecoin as one of the available means of payment. Over time, Dogecoin has been used for various charitable causes and crowdfunding efforts, further boosting its community engagement and visibility in the crypto market.
+Blockchains and exchanges
+
+Blockchains: Native Dogecoin blockchain
+Exchanges: Binance, Coinbase, Kraken, Huobi, OKEx, Bittrex, and Robinhood.
+
+Dogecoin price
+Price: Approximately USD 0.14
+Market Cap: Approximately USD 19.02 billion
+Trading Volume (24h): Approximately USD 1.2 billion
+
+2. Shiba Inu (SHIB)
+Shiba Inu (SHIB) was created in August 2020 by an anonymous individual or group known as “Ryoshi.” The coin was designed as a direct competitor to Dogecoin, earning the nickname “Dogecoin killer.” The reason behind the creation of Shiba Inu was to capitalize on the popularity of dog-themed cryptocurrencies and the growing trend of meme coins. Upon its launch, Shiba Inu quickly gained traction, driven by its community and a series of strategic marketing campaigns. The coin’s popularity surged when Ethereum co-founder Vitalik Buterin donated a significant portion of his SHIB holdings to a COVID-19 relief fund in India, and burned the remaining tokens, effectively reducing the circulating supply. The market reacted positively to these moves, leading to massive price increases and widespread adoption within the crypto community. Shiba Inu also introduced its own decentralized exchange, ShibaSwap, further enhancing its ecosystem and utility.
+
+Blockchains and exchanges
+
+Blockchains: Ethereum (ERC-20)
+Exchanges: Binance, Coinbase, KuCoin, Huobi, OKEx, Uniswap, and ShibaSwap.
+
+Shiba Inu – current price
+Price: Approximately USD 0.000021. (Note: Prices fluctuate frequently, please check the latest price on a reliable exchange or financial website.)
+Market Cap: Approximately USD 10.61 billion
+Trading Volume (24h): Approximately USD 580.99 million​
+3. Polkadot (DOT)
+Polkadot (DOT) was created by Dr. Gavin Wood, one of the co-founders of Ethereum and the former CTO of the Ethereum Foundation. Polkadot aims to solve some of the most significant challenges in blockchain technology, including scalability, interoperability, and security. Launched in May 2020, Polkadot is designed to enable different blockchains to transfer messages and value in a trust-free fashion; it allows for cross-chain transfers of any type of data or asset, not just tokens. This makes it a heterogeneous multi-chain framework. Polkadot’s core mission is to establish a web where our data is our own and isn’t stored on servers owned by internet companies.
+The network employs a unique sharding technology called “parachains,” which are multiple parallel blockchains connected to the Polkadot Relay Chain. This design improves scalability and enables high transaction throughput. Polkadot’s governance model is also innovative, allowing token holders to have a say in the protocol’s direction, including updates and fixes without hard forks. Since its inception, Polkadot has gained significant market traction, becoming one of the top cryptocurrencies by market capitalization
+Blockchains and exchanges
+
+Blockchains: Polkadot network
+Exchanges: Binance, Coinbase, Kraken, Huobi, OKEx, Bitfinex, Bittrex, KuCoin, and others
+
+Polkadot price
+Price: Approximately USD 5.00 (as of the latest update)
+Market Cap: Approximately USD 6.01 billion
+Trading Volume (24h): Approximately USD 230 million
+4. Base Dawgz
+Base Dawgz (DAWGZ) is a multi-chain meme coin inspired by the Shiba Inu meme, designed to capitalize on the vibrant culture of meme coins. It was launched in 2024 and quickly gained traction due to its unique features and the backing of a strong community. Base Dawgz aims to differentiate itself by being a multi-chain token that operates across Ethereum, Solana, Binance Smart Chain, and Avalanche, allowing for wider adoption and increased visibility among investors. The project incorporates a novel share-to-earn strategy where users can earn points by sharing DAWGZ-related content on social media, which can later be converted into additional DAWGZ tokens. Furthermore, the token plans to introduce a staking protocol to generate passive income for holders while enhancing network security and price stability​.
+Blockchains and exchanges
+
+Blockchains: Base Chain, Ethereum (ERC-20), Solana, Binance Smart Chain, Avalanche
+Exchanges: Currently in presale, expected to list on various decentralized and centralized exchanges post-presale​
+
+Base Dawgz price
+Base Dawgz’s price is approximately USD 0.00479 during the presale phase.
+5. PlayDoge (PLAY)
+PlayDoge (PLAY) is a mobile-based play-to-earn (P2E) game that integrates the popular Doge meme with a Tamagotchi-style virtual pet concept. It was created to offer a nostalgic gaming experience while allowing players to earn cryptocurrency by caring for their virtual Doge pets. Players can feed, train, and play with their digital Doge, earning $PLAY tokens through various in-game activities and mini-games. The game also features a leaderboard where top performers can earn additional rewards and bonuses. Since its launch, PlayDoge has attracted significant attention, raising over $200,000 in its initial presale phase, and aims to raise a total of $24.4 million through its presale rounds.
+PlayDoge is a mobile-based play-to-earn (P2E) game that integrates the popular Doge meme with a Tamagotchi-style virtual pet concept.
+Blockchains and exchanges
+
+Blockchain: Binance Smart Chain (BSC)
+Exchanges: Currently in presale and not yet listed on major exchanges. Post-presale, it is expected to be available on decentralized exchanges (DEXs) on the Binance Smart Chain.
+
+PlayDoge price
+Because the PlayDoge is still in the presale phase, market cap and trading volume are unavailable yet. The presale price of the coin is approximately USD 0.00509. 
+6. Pikamoon (PIKA)
+Pikamoon is a meme coin and play-to-earn (P2E) gaming token that was launched with the vision of revolutionizing the web3 gaming space. The project was conceived in November 2022 by three friends who were avid gamers, inspired by iconic games like Pokémon. They aimed to create a AAA-grade P2E game that offers a community-focused, decentralized alternative to traditional gaming. Pikamoon allows players to build and customize parties from different elemental types and species, engage in battles, explore vast game worlds, and participate in the metaverse. The token integrates gaming and NFT elements, providing players with various ways to earn and trade within the ecosystem.
+
+Blockchains and exchanges
+
+Blockchain: Ethereum (ERC-20)
+Exchanges: Uniswap V2 (Ethereum), Bitget, MEXC, BitMart​
+
+Pikamoon price
+Price: Approximately USD 0.39
+Market Cap: Approximately USD 3.95 million (fully diluted)
+Trading Volume (24h): Approximately USD 374
+7. Sponge V2 (SPONGE)
+Sponge V2 (SPONGE) is the second iteration of the Sponge meme coin, originally inspired by the beloved cartoon character SpongeBob SquarePants. It was created to build on the success of its predecessor, which achieved significant milestones in the meme coin market. Sponge V2 aims to merge the fun and engagement of a meme coin community with a unique staking model and a play-to-earn (P2E) game. This iteration launched on the Polygon network, enabling lower transaction fees and positioning itself to achieve substantial gaming utility. The anonymous founding team actively promotes the coin on social media platforms such as Twitter, Telegram, and Discord, engaging with the community to drive its success. Sponge V2’s goal is to increase its market cap to $1 billion, attract over 100,000 holders, and secure listings on top-tier exchanges​.
+Blockchains and exchanges
+
+Blockchain: Polygon
+Exchanges: Uniswap (V3), Gate.io, Poloniex, Bitget, MEXC
+
+Sponge V2 price
+Price: Approximately USD 0.000126
+Market Cap: Approximately USD 18.83 million (fully diluted)
+Trading Volume (24h): Approximately USD 107,424
+8. Jeo Boden (BODEN)
+Jeo Boden (BODEN) is a meme coin inspired by a humorous misspelling of U.S. President Joe Biden’s name, created to parody the political landscape. It was launched to leverage the viral nature of political memes and has quickly gained traction within the cryptocurrency community. The coin aims to unify people through humor and counter divisive political claims, often poking fun at various political events and figures. Since its inception, Jeo Boden has seen significant price fluctuations, reflecting the speculative and community-driven nature of meme coins. Its market performance has been notable, with peaks and troughs driven by social media trends and community engagement.
+Blockchains and exchanges
+
+Blockchain: Solana
+Exchanges: Kraken, CoinEx, Raydium, Poloniex, and Jupiter
+
+Jeo Boden price
+Price: Approximately USD 0.11
+Market Cap: Approximately USD 76.15 million (fully diluted market cap)
+Trading Volume (24h): Approximately USD 13.20 million
+9. Bonk (BONK)
+Bonk (BONK) is the first dog-themed meme coin on the Solana blockchain, launched on December 25, 2022. It was designed with a community-first approach, aiming to rejuvenate liquidity on Solana’s decentralized exchanges and serve as a medium of exchange within the ecosystem. The founders of Bonk remain anonymous, and there is no comprehensive whitepaper available; however, a one-pager and “bonk-paper” are provided for investors, detailing token distribution and integration information. Bonk gained substantial attention and popularity due to its unique airdrop strategy, where 50% of the total supply was distributed to Solana users, including artists, creators, and active community members.
+Blockchains and exchanges
+
+Blockchain: Solana
+Exchanges: Huobi, MEXC, Bybit, Bitget, Gate.io, Poloniex, Orca, LBank, BKEX, CoinEx, BitMart, Bitrue, DigiFinex, XT.COM, BingX​
+
+Bonk price
+Price: Approximately USD 0.0000224
+Market Cap: Approximately USD 1.53 billion
+Trading Volume (24h): Approximately USD 246.7 million
+10. Sad Hamster (HAMMY)
+Sad Hamster (HAMMY) is a meme coin launched to commemorate a beloved hamster. The coin quickly gained attention within the crypto community due to its humorous and relatable theme. The token aims to create a vibrant and engaging community, leveraging the meme culture that has proven successful for other tokens like Dogecoin and Shiba Inu. Despite its light-hearted origin, Sad Hamster has faced significant volatility in its market performance. It reached an all-time high of $0.07312 on May 18, 2024, but has since seen substantial declines, reflecting the speculative nature of meme coins.
+Blockchains and exchanges
+
+Blockchain: Solana
+Exchanges: Orca, Meteora, Jupiter​
+
+Sad Hamster price
+Price: Approximately USD 0.011
+Market Cap: Approximately USD 8.93 million (fully diluted market cap)
+Trading Volume (24h): Approximately USD 2.07 million
+11. Piza Coin (PIZA)
+Piza Coin (PIZA), also known as HalfPizza, is a meme coin designed for entertainment purposes with no intrinsic value or expected financial return. The project gained attention due to its humorous and playful nature, aiming to bring fun into the cryptocurrency space. It was launched on the Binance Smart Chain and has integrated features like token mining, NFT minting, and decentralized finance (DeFi) tools such as PIZAswap. The platform encourages community participation through engaging activities, including a Bitcoin price guessing game. Despite its light-hearted origins, Piza Coin has faced significant price volatility, reflecting the speculative nature of meme coins.
+Blockchains and exchanges
+Blockchain: Binance Smart Chain
+Exchanges: BitMart, Gate.io, BingX, Tapbit, AscendEX (BitMax), UniSat
+Piza Coin price
+Price: Approximately USD 0.2011
+Market Cap: Approximately USD 4.22 million (fully diluted market cap)
+Trading Volume (24h): Approximately USD 446,635
+12. Popcat (POPCAT)
+Popcat (POPCAT) is a meme coin inspired by the viral internet meme featuring a cat with a large, wide-open mouth, popularly known as “Popcat.” 
+
+Launched on the Solana blockchain, Popcat aims to capitalize on the popularity of cat-themed memes and the broader meme coin trend. The project quickly gained traction due to its engaging theme and the vibrant community it built around the meme. Popcat’s purpose extends beyond humor, aiming to create a platform for community interaction and entertainment through its tokenomics and various meme-related activities.
+Blockchains and exchanges
+
+Blockchain: Solana
+Exchanges: BitMart, Gate.io, BingX, Tapbit, AscendEX (BitMax), UniSat, XT.COM, CoinEx, Raydium, Poloniex, NovaDAX
+
+Popcat price
+Price: Approximately USD 0.26
+Market Cap: Approximately USD 254.22 million
+Trading Volume (24h): Approximately USD 26.32 million
+13. Wojak (WOJAK)
+Wojak (WOJAK) is a decentralized meme coin inspired by the popular internet meme character Wojak, which is known for its expressive and often relatable cartoonish face depicting various emotions. The coin was launched to create a decentralized platform that leverages the viral nature of memes to connect people globally. Wojak enables users to engage in a variety of activities including trading, buying, and selling memes, and participating in community-driven events. The project aims to build a secure and transparent ecosystem for meme enthusiasts, ensuring a user-friendly experience with robust security protocols. Since its launch, Wojak has garnered significant attention and built a strong community, which has contributed to its dynamic market performance​.
+Blockchains and exchanges
+Blockchain: Ethereum (ERC-20)
+Exchanges: Gate.io, MEXC, BitMart, Uniswap V2 (Ethereum), LBank, CoinEx, XT.COM, Bitget, Huobi
+Wojak price
+Price: Approximately USD 0.000940
+Market Cap: Approximately USD 58.88 million
+Trading Volume (24h): Approximately USD 7.03 million
+14. Eggdog (EGG)
+Eggdog (EGG) is a meme coin inspired by the popular internet meme featuring a 3D model of a dog shaped like an egg, often depicted in various humorous scenarios. The meme originated from a video titled “Meet Eggdog” by YouTuber Zamsire, which quickly gained popularity. Following this, several other Eggdog videos were created, contributing to the meme’s viral status. The Eggdog cryptocurrency leverages this viral meme culture to build a community-driven project. The token aims to engage users through its humorous and relatable theme, encouraging a vibrant and interactive community.
+Blockchains and exchanges
+
+Blockchain: Solana
+Exchanges: Raydium, BingX, MEXC, XT.COM, Poloniex, Jupiter
+
+Eggdog price
+Price: Approximately USD 0.000708
+Market Cap: Approximately USD 669,528
+Trading Volume (24h): Approximately USD 17,550
+15. Pepega (PEPEGA)
+Pepega (PEPEGA) is a meme coin inspired by the popular Twitch emote “Pepega,” which features a distorted version of the Pepe the Frog character. This coin was launched with the intent of embodying the fun and whimsical aspects of internet culture. Pepega aims to build a vibrant and engaged community by leveraging its humorous and relatable theme. Despite its playful nature, Pepega has seen significant price volatility, typical of meme coins, driven by social media trends and community enthusiasm.
+
+Blockchains and exchanges
+
+Blockchain: Ethereum (ERC-20)
+Exchanges: Uniswap V2 (Ethereum), where it can be traded with the PEPEGA/WETH pair​
+
+16. PooCoin (POOCOIN)
+PooCoin (POOCOIN) is a token on the Binance Smart Chain (BSC) designed to provide advanced charting and portfolio management tools specifically for BSC tokens. The platform includes features such as real-time trading data, transaction tracking, and the ability to view the entry points of trades directly on the chart. Sounds serious for a coin depicting poo, right?
+
+ Additionally, PooCoin offers unique functionalities like a rug check feature to verify the integrity of tokens, a dev wallet checker, and a swapping option for tokens directly on the app. PooCoin charges an 8% fee on transactions, with 4% being redistributed to holders and 4% being burned to create a deflationary effect. This model aims to incentivize holding and reduce the overall supply over time​. 
+Blockchains and exchanges
+
+Blockchain: Binance Smart Chain (BEP-20)
+Exchanges: Available on decentralized exchanges like PancakeSwap (V2)
+
+PooCoin price
+Price: Approximately USD 0.39
+Market Cap: Approximately USD 3.95 million (fully diluted)
+Trading Volume (24h): Approximately USD 374
+17. Kangamoon (KANG)
+Kangamoon (KANG) is a community-driven meme coin that blends SocialFi and Play-to-Earn (P2E) elements, aiming to create an engaging and interactive ecosystem for its users. Launched with the vision of integrating gaming with decentralized finance, Kangamoon allows participants to earn rewards through various in-game activities and social interactions. The project focuses on building a strong community of meme enthusiasts who can interact, grow, and earn together. The presale has been highly successful, surpassing $1 million, indicating significant interest and potential for growth in the market
+Blockchains and exchanges
+
+Blockchain: Ethereum (ERC-20)
+Exchanges: Kangamoon is currently in its presale phase and not yet available on major exchanges. Once the presale concludes, it will be listed on various centralized exchanges (CEXs) and decentralized exchanges (DEXs).
+
+Kangamoon’s price and the market price are not available yet.
+18. CumRocket (CUMMIES)
+CumRocket (CUMMIES) is a meme coin launched in April 2021, designed to revolutionize the adult content industry. It operates a creator subscription platform similar to OnlyFans but focuses on providing more authentic connections between creators and their fans. The platform allows users to build meaningful connections with creators, who are often real individuals rather than agency-managed or AI-operated accounts. CumRocket has attracted attention for its unique niche and the potential for significant returns driven by community interest and speculative trading​.
+
+Blockchains and exchanges
+
+Blockchain: Binance Smart Chain (BEP-20)
+Exchanges: PancakeSwap (V2), Gate.io​
+
+CumRocket price
+Price: Approximately USD 0.00699
+Market Cap: Approximately USD 9.22 million
+Trading Volume (24h): Approximately USD 237,576
+19. Mog coin (MOG)
+Launched in the summer of 2023, Mog Coin started as a simple meme shared among friends and quickly evolved into a cultural phenomenon. The project aims to foster a community-driven platform where users can engage in the creation and appreciation of memes. This approach serves financial utility and enhances community cohesion and cultural expression. Mog Coin leverages its humorous and viral content to build a dedicated community, setting itself apart from other meme coins through its distinct focus on humor and cultural impact​.
+Blockchains and exchanges
+
+Blockchain: Ethereum (ERC-20)
+Exchanges: Gate.io, MEXC, BingX, Uniswap V3, Bitget, XT.COM, BitMart, CoinEx​
+
+Mog coin price
+Price: Approximately USD 0.0000009
+Market Cap: Approximately USD 310.88 million
+Trading Volume (24h): Approximately USD 24.73 million
+20. Monkas (MONKAS)
+Monkas (MONKAS) is a meme coin inspired by the popular “MonkaS” emote, which depicts a nervous-looking Pepe the Frog, commonly used on platforms like Twitch and Discord to convey anxiety or suspense. Launched as a humorous tribute to this internet icon, Monkas aims to create a community-driven cryptocurrency project that leverages the viral appeal of memes. The coin has quickly garnered attention due to its engaging theme and the widespread popularity of the MonkaS meme. Despite its whimsical origins, Monkas has seen substantial price volatility, typical of meme coins driven by social media and community hype.
+Blockchains and exchanges
+
+Blockchain: Ethereum (ERC-20)
+Exchanges: Uniswap (V3), MEXC, BingX, Bitget, XT.COM, CoinEx​
+
+Monkas price
+Price: Approximately USD 0.000009
+Market Cap: Approximately USD 3.38 million (fully diluted market cap)
+Trading Volume (24h): Approximately USD 341,057
+21. Sealana (SEAL)
+Sealana (SEAL) is a meme coin launched on the Solana blockchain, featuring an overweight seal mascot that humorously depicts a dedicated but unkempt crypto trader. The coin was created to capitalize on the growing trend of meme coins on Solana, aiming to attract a community of traders with its relatable and engaging narrative. Since its launch, Sealana has gained significant attention and popularity, especially during its presale phase, where it raised over $265,000 within a few days. The coin’s presale success and its strong community engagement suggest the potential for substantial growth once it becomes available on more exchanges​.
+Blockchains and exchanges
+
+Blockchain: Solana, with plans to support Ethereum as well
+Exchanges: Currently available in presale, expected to list on Solana-based decentralized exchanges (DEXs) and potentially centralized exchanges like Gate.io and LBank after the presale​
+
+Sealana price
+Sealana’s price is approximately USD 0.02 during the presale phase.
+22. Floki (FLOKI)
+Floki (FLOKI) is a decentralized cryptocurrency inspired by Elon Musk’s Shiba Inu dog named Floki. Initially launched as a meme coin, Floki has evolved into a comprehensive web3 project with significant utility. The project aims to create a decentralized ecosystem encompassing NFTs, decentralized finance (DeFi), and a gaming metaverse called Valhalla. Valhalla is a play-to-earn game where players can earn FLOKI tokens by participating in various in-game activities, such as battling creatures, farming, and completing quests. The Floki community, known as the “Floki Vikings,” actively supports the project, which distinguishes itself from other meme coins by focusing on practical applications and long-term sustainability​.
+Blockchains and exchanges
+
+Blockchains: Ethereum (ERC-20), Binance Smart Chain (BEP-20)
+Exchanges: Available on major exchanges including Binance, Huobi, Gate.io, Bybit, Uniswap (V2), PancakeSwap (V2), and Bitget​
+
+Floki price
+Price: Approximately USD 0.000170
+Market Cap: Approximately USD 1.66 billion
+Trading Volume (24h): Approximately USD 300.89 million​
+23. Dogelon Mars (ELON)
+Dogelon Mars (ELON) is a meme coin launched in 2021, thematically inspired by Elon Musk, Dogecoin, and the concept of space exploration. The coin’s narrative follows a character named Dogelon, a dog who explores the galaxy and aims to recolonize Mars. This storyline is depicted in a series of comic strips available on the project’s website, adding a unique and engaging element to the token. Unlike many meme coins that lack substantial utility, Dogelon Mars has built a significant community around its humorous and speculative nature.
+
+Blockchains and exchanges
+
+Blockchains: Ethereum (ERC-20), Polygon
+Exchanges: Uniswap (V2 & V3), OKEx, Gate.io, Bitget, LBank, Crypto.com
+
+Dogelon Mars price
+Price: Approximately USD 0.000000173
+Market Cap: Approximately USD 95.59 million
+Trading Volume (24h): Approximately USD 2.02 million
+24. WienerAI (WAI)
+WienerAI (WAI) is a meme coin that combines elements of artificial intelligence (AI) with a playful Dachshund (commonly known as a wiener dog) mascot. The project launched with a unique narrative where the mascot is part dog, part AI, and part sausage, aiming to become the “top dog” in the meme coin space. WienerAI differentiates itself from other meme coins by leveraging AI technology and a distinctive storyline. The presale for WienerAI has been highly successful, raising over $600,000 within a short period. The project offers significant staking rewards, boasting an annual percentage yield (APY) of over 1,000%, attracting many early investors​.
+Blockchains and exchanges
+
+Blockchain: Ethereum (ERC-20)
+Exchanges: Currently in presale; future listings expected on major decentralized exchanges (DEXs) and possibly centralized exchanges (CEXs) post-presale.
+
+WienerAI price
+WienerAI price is approximately USD 0.000702. However the project is still in pre-sale phase.
+25. Smog (SMOG)  
+Smog  is an environmentally-focused meme coin that integrates its meme-based appeal with a commitment to environmental sustainability. The project incorporates several eco-friendly initiatives and aims to raise awareness about environmental issues while providing financial incentives to its community. Smog’s tokenomics are designed to support environmental initiatives. A portion of the transaction fees and staking rewards are allocated to funding eco-friendly projects and charities. The project emphasizes community participation, offering significant incentives for holding and staking SMOG tokens. 
+The Smog platform includes a play-to-earn (P2E) component where users can participate in a mining game, earning rewards and accessing an NFT marketplace. Smog’s narrative includes a dramatic element of battling and incinerating other cryptocurrencies, creating an engaging and entertaining user experience. Smog was launched in early 2024 on the Solana blockchain.
+
+Blockchains and exchanges
+
+Blockchain: Solana
+Exchanges: MEXC, Uniswap V3, Raydium
+
+Smog price
+Price: Approximately USD 0.0318
+Market Cap: Approximately USD 24.49 million
+Trading Volume (24h): Approximately USD 164,181
+How to create your meme coin?
+Creating your meme coin is simpler than it sounds, and you don’t need to be a tech genius to do it. Here’s a step-by-step guide to help you get started:
+1. Conceptualize your meme coin
+First, you need a fun and catchy concept. Think about a meme or a funny idea that resonates with people. Maybe it’s inspired by a popular meme, a quirky idea, or even a funny animal. Like a beaver.
+2. Choose a blockchain platform
+Decide where you want to launch your coin. Ethereum (ERC-20 tokens), Solana, and Binance Smart Chain (BEP-20 tokens) are popular choices because they have a lot of support and tools to make the process easier. They also provide high-speed transactions and scalability.
+3. Create the token
+You can use online tools to create your token without any deep programming knowledge:
+
+TokenMint or CoinTool: These websites let you create tokens with just a few clicks.
+Ethereum and BSC: If you’re more tech-savvy, you can write a simple smart contract using Solidity for Ethereum or Binance Smart Chain.
+
+4. Set up the token parameters
+Decide on the name, symbol, total supply, and decimals (how divisible your token is). For example, “DogeDollars” (DOGE$) with a total supply of 1,000,000,000 tokens. Plan how the tokens will be distributed initially (e.g., presale, airdrop, team allocation).
+5. Deploy the Smart Contract
+
+Testnet deployment: Test your smart contract on a testnet like Ropsten (Ethereum) or BSC Testnet.
+Mainnet deployment: Once you’re happy with the test, deploy your token on the mainnet. You’ll need some ETH or BNB for gas fees.
+
+6. Spread the word
+Create a website and social media profiles to promote your coin. Engage with communities on Reddit, Twitter, and Telegram. Memes thrive on community engagement. 
+Start by listing your token on decentralized exchanges (DEX) like Uniswap (for Ethereum) or PancakeSwap (for BSC).  As your coin gains traction, aim to list it on larger exchanges like Binance or Coinbase.
+7. Compliance and security
+Last but not least, ensure your token complies with local regulations to avoid legal issues. You can ask a reputable firm to make security audit to ensure there are no vulnerabilities.
+Meme coins market data – how to get it?
+Mostly it’s simple. To get historical data, for example, for research purposes, you can use Cryptotick – market data in flat files. It’s an ideal choice for technical and non-technical users seeking comprehensive crypto historical data from all exchanges. It provides quotes, trades, OHLCV, and order book snapshots. Here are some of its key features:
+
+Data format and storage
+
+The data is stored in compressed (gzip highest available compression level) ASCII text files in CSV format. This ensures efficient storage and easy accessibility.
+
+File split methodology
+
+Data is organized efficiently, with each data type split into single files per symbol and trading day (UTC). This organization facilitates easy access and analysis.
+
+Access and authorization
+
+For Amazon S3 and Google GCP bucket upload options, CryptoTick requires specific authorization settings. For Amazon S3, disable the ACL in the object ownership section and attach the provided bucket policy. For Google GCP, add the service account [email protected] with storage admin access.
+
+Sample data availability
+
+CryptoTick provides sample data files for various data types, allowing users to evaluate the data quality and format. These samples cover a range of data types like quotes, trades, limit book snapshots, and OHLCV data.
+For both, historical and real-time data on meme coins you can also use Market Data API which actively collects millions of data points, tick by tick, from over 350 cryptocurrency exchanges. This includes order books, executed transactions, quotes, and OHLCV data. The data is collected using REST, WebSocket, and FIX API protocols depending on what each exchange supports. To address inconsistencies across different exchanges, our API provides crypto data standardization.
+
+To start, go to the Pricing section and select a plan. You are also welcome to contact us if you need assistance in choosing the best option for you. 
+Stay up-to-date with the latest CoinApi News.SendI Agree to CoinApi’s Privacy Policy*Recent ArticlesEMS Trading APIHow to improve your high-frequency trading strategies in crypto?In crypto trading, High-Frequency Trading operates similarly to traditional markets but with some unique characteristics due to the...Market Data APIWhy is aggregated crypto data better?Some time ago we wrote blog posts about crypto data filtering and crypto data standardization – now it’s time to tell you more about...Market Data APIWhat are Meme Coins? Top 25 Funniest Examples and PricesLet’s have some fun! Because after all, who said that investing and entertainment shouldn’t come in pairs?...Market Data APICrypto data filteringAt 9:00 AM, with a cup of coffee in hand, you sit at your desk ready to trade crypto. Faced with an overwhelming amount of market data and...EMS Trading API3 Core Statistical Arbitrage Strategies in CryptoStatistical arbitrage, often abbreviated as “stat arb,” is a quantitative trading strategy that seeks to exploit inefficiencies...EMS Trading APIEMS Trading API vs Single Exchange Access – What’s better?Choosing the right trading tools is crucial for optimizing your strategy. This blog post delves into Execution Management Systems (EMS),...Market Data APIThe Role of Latency in Cryptocurrency DataLatency impacts everything from trade execution speed to market data accuracy in the cryptocurrency world. Learn why low latency is...Market Data APICryptocurrency Exchange RatesIn the world of cryptocurrencies, exchange rates are dynamic and influenced by various market factors. This post explains the concept of...Market Data APIHow to get Historical and Real-Time Crypto Data From Multiple Exchanges?With the rise of cryptocurrencies, there is a growing question: how to get historical and real-time crypto data from multiple...Crypto API made simple:  Try now or speak to our sales teamStart for FreeGet in Touch×Get a free API keyEMAILNAMETITLECOMPANY SIZE1-1010-5050-250250-10001000+CANCELGET A FREE API KEY ProductsMarket Data APIEMS Trading APICryptoTickNode as a Service (Soon)On-Chain API (Soon)CoinAPI.ioCoinAPI.ioHomeAPI DocsBlogHelpHelpContact salesContact supportHow-to GuidesFAQMetadata ExplorerDevelopersDevelopersHelper LibrariesAPI DocumentationStatus PageLegalLegalTerms of serviceAcceptable Usage PolicyPrivacy PolicyJoin our newsletterCopyright 2023 COINAPI LTD or its affiliates. All rights reserved.(https://coinapi.io/blog/what-are-meme-coins)

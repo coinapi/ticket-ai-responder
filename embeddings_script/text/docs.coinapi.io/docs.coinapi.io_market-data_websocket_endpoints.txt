@@ -13,7 +13,7 @@ Endpoints | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIREST APIWebSocket APIEndpointsGeneralMessagesFIX APIS3 APIJSON RPCEMS APIFAQCustomer PortalChangelogMarket Data APIWebSocket APIEndpointsEndpointsEnviromentEncryptionValueProductionYeswss://ws.coinapi.io/v1/ProductionNows://ws.coinapi.io/v1/For testing, debugging and development purposes we are recommending:wscat client from the npm package repository: https://github.com/websockets/wscatsandy standalone WebSocket client with our message templates available at: https://app.gosandy.io/?url=https://raw.githubusercontent.com/coinapi/coinapi-sdk/master/data-api/sandy-ws-v1.json&u=ArWas this section helpful?12345PreviousWebSocket APINextGeneralCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyMarket Data APIAuthenticationAPI limits and billingREST APIWebSocket API V1EndpointsGeneralMessagesWebSocket API DSJSON RPCFIX APIHow-to guidesPerformance Testing GuideWebSocket API V1EndpointsEndpointsEnviromentEncryptionValueProductionYeswss://ws.coinapi.io/v1/ProductionNows://ws.coinapi.io/v1/For testing, debugging and development purposes we are recommending:wscat client from the npm package repository: https://github.com/websockets/wscatsandy standalone WebSocket client with our message templates available at: https://app.gosandy.io/?url=https://raw.githubusercontent.com/coinapi/coinapi-sdk/master/data-api/sandy-ws-v1.json&u=ArWas this section helpful?12345PreviousWebSocket API V1NextGeneralCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
 
 
 

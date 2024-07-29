@@ -1,0 +1,20 @@
+
+
+
+
+
+I received a reconnect message from Websocket | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountAPIDo you accept bank or wire transfers?Do you offer EMS Trading API?Empty response when using EMS endpointsFIX API Logon TroubleshootingGeographic locations and the LatencyHow are exchange rates calculated?How can I get OHLCV data by asset pair?How can I get the USD price for multiple assets at the same time?How can I see a list of symbols related to a specific exchange, market, or asset?How can I unsubscribe from Websocket?How to solve certificate validation error?How to use CoinAPI from Matlab?I received a reconnect message from WebsocketWhat are the restrictions on usage of real-time protocols?What are the time periods I can use for Exchange Rates and OHLCV?What happens if I exceed my plan’s REST API daily request limit?What is the rate limit for EMS Trading API?What languages do you support?What timezone is used for date/time values?Where can I find examples and SDK source codes for API?Why are limit headers not always showing on a request?Why are there no Exchange Rates data for some assets for a given period?Why do some symbols have additional prefix?Documenting Connectivity issuesBilling and SubscriptionsSecurity and PrivacyGlossaryChangelogFAQAPII received a reconnect message from WebsocketI received a reconnect message from WebsocketReconnect message is sent by the server to all connected clients when the server will be restarted or shut down at the defined exact time included in the message content. After the period specified in message passes, the client must expect that the underlying WebSocket connection will be closed from the server-side. A new connection will automatically be established to a different server.The correct way of handling this event depends on the specific requirements of the integration, but we can define standard ways how to handle it:Wait for the connection to be closed and reconnectReconnect immediately after receiving the messageUpon receiving the message, establish a second connection, and subscribe to the same scope of data. When the first connection is disconnected, do not reconnect it and instead transparently switch the data streams between connections. This method requires more implementation as a transparent switch of the data stream must not break the sequence for streams published using the initial snapshot and update messages. To make sure the sequence is correct, the client must: (a) maintain a state by applying updates to snapshot or (b) buffer the data from the second connection and processing it at the transparent connection switch.Example JSON reconnect message is structured like this:{    "type": "reconnect",    "within_seconds": 10,    "before_time": "2020-08-06T19:19:09.7035429Z",}Was this section helpful?12345PreviousHow to use CoinAPI from Matlab?NextWhat are the restrictions on usage of real-time protocols?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/api/I-received-a-reconnect-message-from-using-Websocket)

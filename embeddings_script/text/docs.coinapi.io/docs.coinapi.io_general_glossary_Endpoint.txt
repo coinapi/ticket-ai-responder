@@ -1,0 +1,20 @@
+
+
+
+
+
+Endpoint | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGlossaryBlockchain Address and OutputBlockchain NodeChain (Blockchain)EndpointJSONNetworkSatoshiTransactionWalletBlockchain BlockChangelogGlossaryEndpointOn this pageEndpointEndpoint​An Endpoint is a specific URL where an API can be accessed to retrieve, send, or manipulate data. Endpoints are crucial in the interaction between different software systems, providing precise locations where services can be requested and data can be exchanged.Key Characteristics​URL Structure: Each endpoint is identified by a unique URL, which specifies the path to a particular resource or service within the API.Methods: Endpoints support various HTTP methods such as GET, POST, PUT, DELETE, which define the type of operation to be performed.Parameters: Endpoints often accept parameters, either as part of the URL or in the request body, to filter, sort, or specify the data to be manipulated.Importance​Access Control: Endpoints help in defining the scope of access, ensuring that only authorized requests can retrieve or modify the data.Modularity: By structuring APIs into distinct endpoints, developers can create modular and maintainable code.Interoperability: Endpoints enable different systems to communicate and share data seamlessly, fostering integration and interoperability.Was this section helpful?12345PreviousChain (Blockchain)NextJSONEndpointCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/glossary/Endpoint)

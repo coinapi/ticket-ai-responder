@@ -1,0 +1,20 @@
+
+
+
+
+
+What CDN does the API use? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountAPIBilling and SubscriptionsSecurity and PrivacyWhat CDN does the API use?What information do I need to provide in order to subscribe?What security mechanisms does CoinAPI use to protect my data?What should I do if my API key was compromised?GlossaryChangelogFAQSecurity and PrivacyWhat CDN does the API use?What CDN does the API use?We build our own CDN network with nodes directly distributing data between each other via the fastest routes. Any existing CDN solutions are targeted on the caching which is not applicable to financial data.Was this section helpful?12345PreviousSecurity and PrivacyNextWhat information do I need to provide in order to subscribe?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/security-and-privacy/What-CDN-does-the-API-use)

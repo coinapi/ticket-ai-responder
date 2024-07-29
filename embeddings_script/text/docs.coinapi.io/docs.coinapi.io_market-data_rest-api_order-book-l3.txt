@@ -13,7 +13,7 @@ Order Book L3 | CoinAPI.io Documentation
 
 
 
-Skip to main contentGitHubSearchGet a free API KeyWelcomeAuthenticationAPI limits and billingHow-to guidesMarket Data APIREST APIExchange RatesIndexesMetadataMetricsOhlcvOrder BookOrder Book L3 Current order book by symbol_id Current order booksQuotesTradesWebSocket APIFIX APIS3 APIJSON RPCEMS APIFAQCustomer PortalChangelogMarket Data APIREST APIOrder Book L3Order Book L3This section describes calls related to order book data, also known as books or passive level 3 data.📄️  Current order book by symbol_idRetrieves the current order book for the specified symbol.📄️  Current order books Current order booksWas this section helpful?12345Previous Latest dataNext Current order book by symbol_idCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyMarket Data APIAuthenticationAPI limits and billingREST APIExchange RatesIndexesMetadataMetricsOhlcvOrder BookOrder Book L3 Current order book by symbol_id Current order booksQuotesTradesWebSocket API V1WebSocket API DSJSON RPCFIX APIHow-to guidesPerformance Testing GuideREST APIOrder Book L3Order Book L3This section describes calls related to order book data, also known as books or passive level 3 data.📄️  Current order book by symbol_idRetrieves the current order book for the specified symbol.📄️  Current order books Current order booksWas this section helpful?12345Previous Latest dataNext Current order book by symbol_idCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
 
 
 

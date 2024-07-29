@@ -1,0 +1,20 @@
+
+
+
+
+
+net_listening | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyNaaS APIAuthenticationAPI limits and billingBitcoinEthereumMethodseth_blockNumbereth_calleth_chainIDeth_coinbaseeth_createAccessListeth_estimateGaseth_feeHistoryeth_gasPriceeth_createAccessListeth_getBlockByHasheth_getBlockByNumbereth_getBlockReceiptseth_getBlockTransactionCountByHasheth_getBlockTransactionCountByNumbereth_getCodeeth_getFilterChangeseth_getFilterLogseth_getLogseth_getProofeth_getStorageAteth_getTransactionByBlockHashAndIndexeth_getTransactionByBlockNumberAndIndexeth_getTransactionByHasheth_getTransactionCounteth_getTransactionReceipteth_getUncleByBlockHashAndIndexeth_getUncleByBlockNumberAndIndexeth_getUncleCountByBlockHasheth_getUncleCountByBlockNumbereth_getWorketh_hashrateeth_maxPriorityFeePerGaseth_miningeth_newBlockFiltereth_newFiltereth_newPendingTransactionFiltereth_protocolVersioneth_sendRawTransactioneth_signeth_signTransactioneth_submitWorketh_subscribesubscribePendingTransactionseth_syncingeth_uninstallFiltereth_unsubscribegetBeaconBlocksAttestationsgetBlockByRootgetTxPoolStatusnet_listeningnet_peerCountnet_versiontrace_blocktrace_calltrace_callManytrace_filtertrace_rawTransactiontrace_replayBlockTransactionstrace_replayTransactiontrace_transactiontxpool_contenttxpool_contentFromtxpool_inspectweb3_clientVersionweb3_sha3EthereumMethodsnet_listeningOn this pagenet_listeningOverview​The 'net_listening' method is an Ethereum API method provided by CoinAPI that returns a boolean value indicating whether the client is currently listening for network connections or not. This method can be instrumental in various scenarios where it's crucial to monitor the status of an Ethereum client's network connection to ensure its proper functioning.Request​POST https://ethereum-mainnet-geth-archive.node.coinapi.io/apiKey=XXXX/Headers:- accept: application/json- content-type: application/jsonBody:{  "id": 1,  "jsonrpc": "2.0",  "method": "net_listening"}Request Parameters​id: Integer (e.g., 1)jsonrpc: String (e.g., "2.0")method: String (e.g., "net_listening")Response​{  "result": boolean}The response will be a boolean value that indicates whether or not a node is currently actively seeking peer connections. It will return 'true' if the client is actively listening for connections and 'false' if not.Was this section helpful?12345PreviousgetTxPoolStatusNextnet_peerCountOverviewRequestRequest ParametersResponseCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/naas-api/ethereum/Methods/net_listening)

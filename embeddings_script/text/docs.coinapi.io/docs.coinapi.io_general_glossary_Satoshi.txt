@@ -1,0 +1,20 @@
+
+
+
+
+
+Satoshi | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGlossaryBlockchain Address and OutputBlockchain NodeChain (Blockchain)EndpointJSONNetworkSatoshiTransactionWalletBlockchain BlockChangelogGlossarySatoshiOn this pageSatoshiSatoshi​A Satoshi is the smallest unit of Bitcoin, named after its creator. One Bitcoin is equal to 100,000,000 Satoshis. The concept of Satoshis allows for fine-grained transactions and microtransactions within the Bitcoin network.Key Characteristics​Divisibility: Satoshis enable Bitcoin to be divided into very small units, facilitating transactions of all sizes.Naming: Named in honor of Satoshi Nakamoto, the pseudonymous creator of Bitcoin.Importance​Microtransactions: Satoshis make it possible to conduct very small transactions, which is essential for various applications and services that require micro-payments.Adoption and Usability: The divisibility into Satoshis enhances the usability of Bitcoin, allowing it to be used for a wider range of transactions.Was this section helpful?12345PreviousNetworkNextTransactionSatoshiCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/glossary/Satoshi)

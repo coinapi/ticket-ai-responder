@@ -1,0 +1,20 @@
+
+
+
+
+
+Data Types and File Structure Overview | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyFlat FilesBilling and UsageData & StructureQuotesTradesFull Limit Order BookS3 APIPush APIData & StructureOn this pageData Types and File Structure OverviewThe Flat Files S3 API provides access to various types of cryptocurrency market data. This document provides an overview of the available data types and the general file structure used across the system.Available Data Types​Our API offers the following types of market data:QuotesTradesLimit Book SnapshotsFull Limit Order BookOHLCV (Open, High, Low, Close, Volume)Each data type is documented in detail in its respective article, including field descriptions, data formats, and usage examples.File Structure​Data in the S3 bucket is organized according to the following structure:/├── trades/│   └── YYYYMMDD/│       └── [EXCHANGE_ID]-[SYMBOL_ID].csv.gz├── quotes/│   └── YYYYMMDD/│       └── [EXCHANGE_ID]-[SYMBOL_ID].csv.gz├── limitbook_full/│   └── YYYYMMDD/│       └── [EXCHANGE_ID]-[SYMBOL_ID].csv.gz├── limitbook_snapshot_X/│   └── YYYYMMDD/│       └── [EXCHANGE_ID]-[SYMBOL_ID].csv.gz└── ohlcv_active_consolidated/    └── YYYYMMDD/        └── [EXCHANGE_ID]-[SYMBOL_ID].csv.gzWhere:YYYYMMDD represents the date of the data[EXCHANGE_ID] is the identifier for the specific exchange[SYMBOL_ID] is the identifier for the specific trading pair or instrumentFile Format​All data files are stored in CSV (Comma-Separated Values) format and compressed using gzip compression. This approach balances human readability with efficient storage and transfer sizes.To use these files:Download the .csv.gz fileDecompress the file using a tool that supports gzip (e.g., gzip, 7-zip)Open the resulting CSV file in a spreadsheet application or process it with your preferred data analysis toolData Consistency and Synchronization​All timestamp fields across different data types are synchronized to ensure consistency when analyzing data from multiple sources. We use high-precision time synchronization to maintain accuracy across our data collection infrastructure.Best Practices for Data Retrieval​Use date-based partitioning to efficiently retrieve data for specific time periods.Leverage the prefix functionality in S3 listing operations to filter data by exchange, symbol, or date.Implement parallel downloads for large datasets to improve retrieval speed.Consider implementing local caching for frequently accessed data to reduce API calls and improve application performance.For detailed information on each data type, please refer to the individual data type documentation.Was this section helpful?12345PreviousBilling and UsageNextQuotesAvailable Data TypesFile StructureFile FormatData Consistency and SynchronizationBest Practices for Data RetrievalCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/flat-files-api/data-types)

@@ -1,0 +1,20 @@
+
+
+
+
+
+What should I do if my API key was compromised? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountAPIBilling and SubscriptionsSecurity and PrivacyWhat CDN does the API use?What information do I need to provide in order to subscribe?What security mechanisms does CoinAPI use to protect my data?What should I do if my API key was compromised?GlossaryChangelogFAQSecurity and PrivacyWhat should I do if my API key was compromised?What should I do if my API key was compromised?Please contact support immediately, and we will generate the new key for you. If your old key is still in production use, we will give you time to migrate to the new one.Submit a request here: https://support.coinapi.io/hc/en-us/requests/newWas this section helpful?12345PreviousWhat security mechanisms does CoinAPI use to protect my data?NextGlossaryCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/security-and-privacy/What-should-I-do-if-my-API-key-was-compromised)

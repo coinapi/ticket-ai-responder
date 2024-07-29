@@ -1,0 +1,20 @@
+
+
+
+
+
+Full Limit Order Book | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyFlat FilesBilling and UsageData & StructureQuotesTradesFull Limit Order BookS3 APIPush APIData & StructureFull Limit Order BookOn this pageFull Limit Order BookOverview​The Full Limit Order Book (LOB) data type provides a comprehensive view of the order book for a specific trading pair on an exchange. It captures all changes to the order book, allowing for a detailed reconstruction of the market state at any given moment.File Organization​Full Limit Order Book data is organized in the S3 bucket as follows:limitbook_full/└── YYYYMMDD/    └── [EXCHANGE_ID]-[SYMBOL_ID].csv.gzExample: limitbook_full/20230701/BINANCE-BTCUSDT.csv.gzFile Format​Files are in CSV format, compressed with gzip. Each row represents a single update to the order book.Data Fields​Column NameTypeDescriptiontime_exchangedatetimeUTC timestamp of the update provided by the exchange or estimated using the exchange API delay.time_coinapidatetimeUTC timestamp when CoinAPI first received the update.is_buybooleanIndicates if the update is related to the bid side of the book. 0 for ask (sell), 1 for bid (buy).update_typestringType of the update. Possible values: ADD, SUB, MATCH, SET, DELETE, SNAPSHOT.entry_pxdecimalPrice identifying the book level.entry_sxdecimalVolume associated with the specific update item.order_idstringID of the order if the format is Level 3 (order-by-order), empty if the format is Level 2.Example Data​time_exchange,time_coinapi,is_buy,update_type,entry_px,entry_sx,order_id2023-07-01T12:00:00.123456Z,2023-07-01T12:00:00.234567Z,1,ADD,30000.00,1.5,ord1232023-07-01T12:00:01.123456Z,2023-07-01T12:00:01.234567Z,0,DELETE,30005.00,0.5,ord1242023-07-01T12:00:02.123456Z,2023-07-01T12:00:02.234567Z,1,SUB,30000.00,0.5,ord123Data Collection Process​We maintain a real-time connection to each supported exchange.Every change to the order book is captured and recorded.The data is processed, normalized, and stored in our system.At the end of each day (UTC), the data is aggregated into daily files and uploaded to the S3 bucket.Update Types Explained​ADD: Adds a new order to the book.SUB: Subtracts volume from an existing order.MATCH: Similar to SUB, but indicates the subtraction was due to a trade execution.SET: Sets a new volume for an existing order.DELETE: Removes an order from the book.SNAPSHOT: Provides a full snapshot of the order book. All previous data should be discarded before processing a SNAPSHOT.Corner Cases and Special Considerations​Order ID Usage: Some exchanges provide order IDs (Level 3 data), while others don't (Level 2 data). When order IDs are not available, the order_id field will be empty.Snapshots: Snapshots are typically provided at the start of each day or after a disconnection. Always process SNAPSHOT updates by clearing the existing book first.High Frequency Updates: During periods of high volatility, you may observe a very high frequency of updates.File Splitting​For highly liquid trading pairs, a single day's data may be split across multiple files:limitbook_full/20230701/BINANCE-BTCUSDT_001.csv.gzlimitbook_full/20230701/BINANCE-BTCUSDT_002.csv.gzUsage Tips​To reconstruct the full order book, process updates sequentially, maintaining the state of the book in memory.Use the time_exchange field for accurate sequencing of updates.Pay attention to the update_type field to correctly apply changes to your local order book representation.For any questions or issues with the Full Limit Order Book data, please contact our support team.Was this section helpful?12345PreviousTradesNextS3 APIOverviewFile OrganizationFile FormatData FieldsExample DataData Collection ProcessUpdate Types ExplainedCorner Cases and Special ConsiderationsFile SplittingUsage TipsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/flat-files-api/data-types/limitbook)

@@ -1,0 +1,20 @@
+
+
+
+
+
+I want to change my account's name? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountHow I can update my credit card / billing information?How can I change my CoinAPI account's email address?How can I get an invoice or receipt?How do I make an account?I want to change my account's name?Managing Team MembersCan I add other users to my account?How do I get an additional API key?APIBilling and SubscriptionsSecurity and PrivacyGlossaryChangelogFAQCustomer AccountI want to change my account's name?I want to change my account's name?Customers will have the option to modify the name associated with their account by utilizing the Customer Portal (https://customerportal.coinapi.io/login). Once you have successfully logged into your account, simply navigate to Subscriptions > Manage Subscriptions > Update Information (Under Billing Information). By accessing this section, you will be presented with the option to alter the account's name to your desired preference.It is important to note that this change will not only reflect the updated name within the Customer Portal but also extend its impact to future invoices generated for your subscription. This means that once the name change is implemented, all forthcoming invoices issued in relation to your subscription will bear the newly updated name.Was this section helpful?12345PreviousHow do I make an account?NextManaging Team MembersCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/account/I-want-to-change-my-account-name)

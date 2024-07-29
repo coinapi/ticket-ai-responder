@@ -1,0 +1,20 @@
+
+
+
+
+
+Quotes | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyFlat FilesBilling and UsageData & StructureQuotesTradesFull Limit Order BookS3 APIPush APIData & StructureQuotesOn this pageQuotesOverview​The Quotes data type provides information about the best bid and ask prices for a specific trading pair on an exchange. This data is crucial for understanding the current state of the market and the spread between buy and sell orders.File Organization​Quote data is organized in the S3 bucket as follows:quotes/└── YYYYMMDD/    └── [EXCHANGE_ID]-[SYMBOL_ID].csv.gzExample: quotes/20230701/BINANCE-BTCUSDT.csv.gzFile Format​Files are in CSV format, compressed with gzip. Each row represents a single quote update.Data Fields​Column NameTypeDescriptionid_site_coinapistringUUID of the site which received the quote. Useful for replaying markets from the perspective of an algorithmic trading strategy.time_exchangedatetimeUTC timestamp of the quote provided by the exchange or estimated using the exchange API delay.time_coinapidatetimeUTC timestamp when CoinAPI first received the quote. Useful for replaying markets from an algorithmic trading strategy perspective.ask_pxdecimalBest ask (sell) priceask_sxdecimalTotal amount of volume resting on the best ask level in the base asset of the symbolbid_pxdecimalBest bid (buy) pricebid_sxdecimalTotal amount of volume resting on the best bid level in the base asset of the symbolExample Data​id_site_coinapi,time_exchange,time_coinapi,ask_px,ask_sx,bid_px,bid_sx550e8400-e29b-41d4-a716-446655440000,2023-07-01T12:00:00.123456Z,2023-07-01T12:00:00.234567Z,30000.50,1.5,30000.00,2.0550e8400-e29b-41d4-a716-446655440001,2023-07-01T12:00:01.123456Z,2023-07-01T12:00:01.234567Z,30001.00,1.2,30000.50,1.8Data Collection Process​We continuously monitor the order books of supported exchanges.When a change in the best bid or ask is detected, a new quote entry is recorded.The data is processed, normalized, and stored in our system.At the end of each day (UTC), the data is aggregated into daily files and uploaded to the S3 bucket.Corner Cases and Special Considerations​Missing Data: If an exchange experiences downtime or connectivity issues, there may be gaps in the quote data.Extreme Values: During periods of high volatility, you may observe unusually large spreads or extreme prices. These are typically valid market conditions rather than errors.time_exchange vs time_coinapi: If these times are equal, it means the exchange did not provide a timestamp, and we're using our receipt time for both fields.File Splitting​For exchanges or trading pairs with high update frequencies, a single day's data may be split across multiple files to manage file sizes. In such cases, the files will be named with an additional sequence number:quotes/20230701/BINANCE-BTCUSDT_001.csv.gzquotes/20230701/BINANCE-BTCUSDT_002.csv.gzUsage Tips​When analyzing spread, calculate it as ask_px - bid_px.The ask_sx and bid_sx fields can be used to gauge market depth at the best prices.Comparing time_exchange and time_coinapi can provide insights into latency between the exchange and our data collection points.For any questions or issues with the Quotes data, please contact our support team.Was this section helpful?12345PreviousData & StructureNextTradesOverviewFile OrganizationFile FormatData FieldsExample DataData Collection ProcessCorner Cases and Special ConsiderationsFile SplittingUsage TipsCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/flat-files-api/data-types/quotes)

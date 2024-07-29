@@ -1,0 +1,20 @@
+
+
+
+
+
+Is there an SLA agreement available? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralAPI Usage LimitsAre subscription payments executed automatically?Are you planning to add an order exchange fee feature?Authorizing CoinAPI Access to Your AWS S3 BucketCan I get exchange wallet deposit and withdrawal status?Can I get the XML or CSV instead of the JSON output format?Can I have multiple API keys in one account?Can I have multiple subscriptions?Can I participate in the CoinAPI GitHub repository?Can I use the API commercially to show prices on my website?Can I use the API to show graphs, charts or tables?Can you trade on both CEX & DEX (DYDX) exchanges from a single EMS Trading API account?Crossed books / bid >= askDid you have market data in flat files?Did you offer discount for University/non-profit/research-only usage?Do you have a Status Page?Does CoinAPI provide asset icons/images of the cryptocurrencies?Exchange chart is different OHLCVHow can I set custom timezone in the data?How do I enable overage?How does SOR determine the best exchange for order execution?How does the full orderbook stream work?How granular is your data?How is trade volume calculated?How long does it take to integrate CoinAPI?How to avoid losing the messages or delay on the WebSocket?How to be notified about the issues/incidents?How to check historical API usage?How to get more than 100 items in response?How to handle order book flat files can go back in time?How to handle payment errors during sign upI didn't receive an emailI forgot my paid subscription API keyI hardly use the REST API, why is my usage so high?"Invalid API Key" error for a newly purchased keyIs SOR included in the basic EMS Trading API package?Is latency higher for the exchanges which are providing only REST API?Is there an SLA agreement available?OHLCV Aggregation using the REST APIREST API empty array/collection response and 550 error explained.Should we file a ticket every time?Some symbols have extra identifiersWas my free API Key banned/blocked?We need a OneZero FIX API session, is this possible?What are the benefits of using the WebSocket SDK?What are the inclusions of the Enterprise Plan?What data is delivered using the local sites?What exchanges are supported?What is CoinAPI?What is the max number of accounts an Enterprise plan can have?What market symbol types are supported by CoinAPI?What order types does SOR support?What types of data does CoinAPI provide?Where is CoinAPI infrastructure located?Which assets or currencies are listed?Why am I receiving "message": "Forbidden - Your API key don't have privileges to data type"?Will I get an access to Market Data API if I purchase EMS Trading API?How to setup AWS VPC peering?Customer AccountAPIBilling and SubscriptionsSecurity and PrivacyGlossaryChangelogFAQGeneralIs there an SLA agreement available?Is there an SLA agreement available?Yes, we are providing standard SLA Agreement for all of our paid Plan customers. If you however need a custom SLA agreement, this can be catered to our Enterprise PlanIf you have such requirements, kindly submit a request here: https://share.hsforms.com/1cY_sFZHRT_mjnq3KxoItuQbm7f2Was this section helpful?12345PreviousIs latency higher for the exchanges which are providing only REST API?NextOHLCV Aggregation using the REST APICopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/general/Is-there-an-SLA-agreement-available)

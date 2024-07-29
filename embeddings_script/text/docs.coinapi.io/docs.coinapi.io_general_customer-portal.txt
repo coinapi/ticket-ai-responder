@@ -1,0 +1,20 @@
+
+
+
+
+
+Customer Portal | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalMetrics tab explainedTraces view explainedFAQGlossaryChangelogCustomer PortalOn this pageCustomer PortalCoinAPI Customer Portal​Overview​The CoinAPI Customer Portal is your centralized hub for managing all aspects of your CoinAPI account. Designed with user convenience in mind, this portal allows you to efficiently oversee your subscription, monitor your API usage, manage your API keys, and access essential support resources.Key Features​Subscription Management​View and Update Subscription Plans: Easily view your current subscription details and upgrade or downgrade your plan as needed.Billing Information: Access and update your billing information, view invoices, and manage payment methods.API Usage Monitoring​Real-Time Usage Stats: Track your API calls in real-time to ensure you stay within your plan’s limits.Usage Reports: Generate detailed reports on your API usage over specific periods to analyze and optimize your consumption.API Key Management​Create and Manage API Keys: Generate new API keys, deactivate old ones, and manage permissions to ensure your data is secure.Key Usage Statistics: Monitor the usage of individual API keys to identify any anomalies or optimize performance.Support Resources​Knowledge Base: Access a comprehensive knowledge base with detailed articles and guides to help you get the most out of CoinAPI.Ticketing System: Submit support tickets directly through the portal and track their status.Contact Support: Find various ways to contact our support team for personalized assistance.Benefits​Efficiency: Centralized control over all account-related activities saves time and reduces administrative overhead.Transparency: Clear visibility into your API usage and billing helps you manage costs and prevent overages.Security: Advanced API key management features ensure your data and resources are protected.Getting Started​To access the CoinAPI Customer Portal, simply log in  at Customer Portal Login and start managing your API services today.Was this section helpful?12345PreviousAuthenticationNextMetrics tab explainedCoinAPI Customer PortalOverviewKey FeaturesBenefitsGetting StartedCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/customer-portal)

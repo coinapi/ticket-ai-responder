@@ -1,0 +1,20 @@
+
+
+
+
+
+Glossary of Terms | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGlossaryBlockchain Address and OutputBlockchain NodeChain (Blockchain)EndpointJSONNetworkSatoshiTransactionWalletBlockchain BlockChangelogGlossaryGlossary of TermsWelcome to the CoinAPI Glossary. This section is dedicated to providing clear and concise definitions for key terms and concepts used throughout our documentation. Understanding these terms will help you navigate our API features and make the most of our services. Below you will find an alphabetically organized list of terms commonly used in the cryptocurrency and API space, along with their definitions.Was this section helpful?12345PreviousWhat should I do if my API key was compromised?NextBlockchain Address and OutputCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/glossary)

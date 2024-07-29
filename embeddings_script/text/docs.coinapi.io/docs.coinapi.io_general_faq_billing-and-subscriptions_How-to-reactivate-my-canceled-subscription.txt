@@ -1,0 +1,20 @@
+
+
+
+
+
+How to reactivate my canceled subscription? | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountAPIBilling and SubscriptionsCan I cancel my subscription anytime?Can I still use my API key if I cancel my subscription?How to reactivate my canceled subscription?How to subscribe to the API?How to upgrade/downgrade my subscription?Security and PrivacyGlossaryChangelogFAQBilling and SubscriptionsHow to reactivate my canceled subscription?How to reactivate my canceled subscription?If your subscription was marked for cancelation using the customer portal and your billing period date has not passed, then you can still reactivate it by logging into the Customer Portal (https://customerportal.coinapi.io/login) and navigating to Subscriptions > Manage Subscriptions, you will be able to resume the subscription here. If you also selected to pause your subscription, you may also resume it again here.If your subscription was marked for cancelation and your current billing period date has already passed, then you must acquire a new subscription from our Pricing page (https://www.coinapi.io/market-data-api/pricing) or contact support.Was this section helpful?12345PreviousCan I still use my API key if I cancel my subscription?NextHow to subscribe to the API?Copyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/billing-and-subscriptions/How-to-reactivate-my-canceled-subscription)

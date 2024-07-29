@@ -1,0 +1,21 @@
+
+
+
+
+
+Empty response when using EMS endpoints | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGeneralCustomer AccountAPIDo you accept bank or wire transfers?Do you offer EMS Trading API?Empty response when using EMS endpointsFIX API Logon TroubleshootingGeographic locations and the LatencyHow are exchange rates calculated?How can I get OHLCV data by asset pair?How can I get the USD price for multiple assets at the same time?How can I see a list of symbols related to a specific exchange, market, or asset?How can I unsubscribe from Websocket?How to solve certificate validation error?How to use CoinAPI from Matlab?I received a reconnect message from WebsocketWhat are the restrictions on usage of real-time protocols?What are the time periods I can use for Exchange Rates and OHLCV?What happens if I exceed my plan’s REST API daily request limit?What is the rate limit for EMS Trading API?What languages do you support?What timezone is used for date/time values?Where can I find examples and SDK source codes for API?Why are limit headers not always showing on a request?Why are there no Exchange Rates data for some assets for a given period?Why do some symbols have additional prefix?Documenting Connectivity issuesBilling and SubscriptionsSecurity and PrivacyGlossaryChangelogFAQAPIEmpty response when using EMS endpointsEmpty response when using EMS endpointsThe https://ems-mgmt.coinapi.io/v1/endpoints endpoint returns an empty response in cases where there are no accounts defined. This is the reason why endpoints are not returned, as the EMS service cannot be rendered without any associated accounts. If the list is empty, it indicates the absence of defined accounts.For more information on adding new accounts or updating existing exchange accounts for your subscription in the EMS API, please refer to our documentation here [1].Reference:
+[1] https://docs.coinapi.io/ems-api/managed-cloud-rest-api/account/persist-accountWas this section helpful?12345PreviousDo you offer EMS Trading API?NextFIX API Logon TroubleshootingCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/faq/api/Empty-response-when-using-EMS-endpoints)

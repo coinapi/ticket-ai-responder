@@ -1,0 +1,20 @@
+
+
+
+
+
+Wallet | CoinAPI.io Documentation
+
+
+
+
+
+
+
+
+
+Skip to main contentMarket DataEMSFlat FilesNAASGeneralGitHubSearchGet a free API KeyAuthenticationCustomer PortalFAQGlossaryBlockchain Address and OutputBlockchain NodeChain (Blockchain)EndpointJSONNetworkSatoshiTransactionWalletBlockchain BlockChangelogGlossaryWalletOn this pageWalletWallet​A Wallet is a digital tool that allows users to make electronic transactions with blockchain. It stores the user's private key and public address, enabling the secure sending and receiving of cryptocurrency.Key Characteristics​Private Key: A secret key known only to the user, used to sign transactions and access funds.Public Address: A publicly shared address that others can use to send cryptocurrency to the wallet.Types of Wallets: Wallets can be hardware-based, software-based, or web-based, each offering different levels of security and convenience.Importance​Security: Wallets protect the user's private keys and ensure that only the owner can authorize transactions.Convenience: Wallets provide a user-friendly interface for managing cryptocurrency holdings and performing transactions.Was this section helpful?12345PreviousTransactionNextBlockchain BlockWalletCopyright © 2024 COINAPI LTD or its affiliates. All rights reserved.
+
+
+
+(https://docs.coinapi.io/general/glossary/Wallet)
